@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test registration with phone number not starting with 08 and verify client-side validation error</description>
+   <name>TC_Register_006_Phone_Not_08</name>
+   <tag>Authentication, Registration, Negative, Client-Side</tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testCaseGuid>f7a8b9c0-d1e2-4f3a-4b5c-6d7e8f9a0b1c</testCaseGuid>
+</TestCaseEntity>

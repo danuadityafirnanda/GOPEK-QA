@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>Email input field on login form</description>
+   <name>input_email</name>
+   <tag></tag>
+   <elementGuidId>b2c3d4e5-f6a7-4b5c-9d0e-1f2a3b4c5d6e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid='input-email']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid='input-email']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid='input-email']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>input-email</value>
+      <webElementGuid>b2c3d4e5-f6a7-4b5c-9d0e-1f2a3b4c5d6e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test registration with invalid email format and verify client-side validation error</description>
+   <name>TC_Register_005_Invalid_Email_Format</name>
+   <tag>Authentication, Registration, Negative, Client-Side</tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testCaseGuid>e6f7a8b9-c0d1-4e2f-3a4b-5c6d7e8f9a0b</testCaseGuid>
+</TestCaseEntity>

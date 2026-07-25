@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test registration with name less than minimum length (2 chars) and verify client-side validation error</description>
+   <name>TC_Register_013_Min_Name_Length</name>
+   <tag>Authentication, Registration, Negative, Client-Side</tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testCaseGuid>a4b5c6d7-e8f9-4a0b-1c2d-3e4f5a6b7c8d</testCaseGuid>
+</TestCaseEntity>

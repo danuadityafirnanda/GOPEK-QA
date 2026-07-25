@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>Check account button on transfer form</description>
+   <name>btn-check-account</name>
+   <tag></tag>
+   <elementGuidId>a9b0c1d2-e3f4-4a5b-6c7d-8e9f0a1b2c3d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid='btn-check-account']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid='btn-check-account']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid='btn-check-account']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>btn-check-account</value>
+      <webElementGuid>a9b0c1d2-e3f4-4a5b-6c7d-8e9f0a1b2c3d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

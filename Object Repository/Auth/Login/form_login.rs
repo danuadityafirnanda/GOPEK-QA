@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>Login form container</description>
+   <name>form_login</name>
+   <tag></tag>
+   <elementGuidId>a1b2c3d4-e5f6-4a5b-8c9d-0e1f2a3b4c5d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid='form-login']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid='form-login']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid='form-login']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>form-login</value>
+      <webElementGuid>a1b2c3d4-e5f6-4a5b-8c9d-0e1f2a3b4c5d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

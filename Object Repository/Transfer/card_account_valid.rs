@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>Valid recipient card on transfer form (green/success state)</description>
+   <name>card-account-valid</name>
+   <tag></tag>
+   <elementGuidId>v1v2v3v4-w5w6-4x7x-8y9y-0z1z2z3z4z5z</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid='card-account-valid']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid='card-account-valid']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid='card-account-valid']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>card-account-valid</value>
+      <webElementGuid>v1v2v3v4-w5w6-4x7x-8y9y-0z1z2z3z4z5z</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

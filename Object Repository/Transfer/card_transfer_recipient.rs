@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>Recipient card on transfer summary page</description>
+   <name>card_transfer_recipient</name>
+   <tag></tag>
+   <elementGuidId>e3f4a5b6-c7d8-4e9f-0a1b-2c3d4e5f6a7b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid='card-transfer-recipient']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid='card-transfer-recipient']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid='card-transfer-recipient']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>card-transfer-recipient</value>
+      <webElementGuid>e3f4a5b6-c7d8-4e9f-0a1b-2c3d4e5f6a7b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

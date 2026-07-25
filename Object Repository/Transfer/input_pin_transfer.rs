@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>PIN input field on transfer summary page</description>
+   <name>input_pin_transfer</name>
+   <tag></tag>
+   <elementGuidId>f4a5b6c7-d8e9-4f0a-1b2c-3d4e5f6a7b8c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid='input-pin-transfer']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid='input-pin-transfer']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid='input-pin-transfer']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>input-pin-transfer</value>
+      <webElementGuid>f4a5b6c7-d8e9-4f0a-1b2c-3d4e5f6a7b8c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

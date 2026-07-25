@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>See all transactions link on home page</description>
+   <name>link_see_all_transactions</name>
+   <tag></tag>
+   <elementGuidId>d6e7f8a9-b0c1-4d2e-3f4a-5b6c7d8e9f0a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid='link-see-all-transactions']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid='link-see-all-transactions']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid='link-see-all-transactions']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>link-see-all-transactions</value>
+      <webElementGuid>d6e7f8a9-b0c1-4d2e-3f4a-5b6c7d8e9f0a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

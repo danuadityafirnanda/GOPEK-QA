@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>Registration form container</description>
+   <name>form_register</name>
+   <tag></tag>
+   <elementGuidId>f6a7b8c9-d0e1-4f5a-3b4c-5d6e7f8a9b0c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid='form-register']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid='form-register']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid='form-register']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>form-register</value>
+      <webElementGuid>f6a7b8c9-d0e1-4f5a-3b4c-5d6e7f8a9b0c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

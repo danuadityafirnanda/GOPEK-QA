@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>Account number input field on transfer form</description>
+   <name>input_account_number</name>
+   <tag></tag>
+   <elementGuidId>f8a9b0c1-d2e3-4f4a-5b6c-7d8e9f0a1b2c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid='input-account-number']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid='input-account-number']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid='input-account-number']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>input-account-number</value>
+      <webElementGuid>f8a9b0c1-d2e3-4f4a-5b6c-7d8e9f0a1b2c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

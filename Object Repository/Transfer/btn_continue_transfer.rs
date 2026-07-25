@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>Continue button on transfer recipient form</description>
+   <name>btn_continue_transfer</name>
+   <tag></tag>
+   <elementGuidId>x3x4x5x6-y7y8-4z9z-0a1a-2b3b4b5b6b7b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid='btn-continue-transfer']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid='btn-continue-transfer']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid='btn-continue-transfer']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>btn-continue-transfer</value>
+      <webElementGuid>x3x4x5x6-y7y8-4z9z-0a1a-2b3b4b5b6b7b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

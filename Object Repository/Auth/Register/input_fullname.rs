@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>Full name input field on registration form</description>
+   <name>input_fullname</name>
+   <tag></tag>
+   <elementGuidId>a7b8c9d0-e1f2-4a5b-4c5d-6e7f8a9b0c1d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid='input-fullname']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid='input-fullname']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid='input-fullname']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>input-fullname</value>
+      <webElementGuid>a7b8c9d0-e1f2-4a5b-4c5d-6e7f8a9b0c1d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

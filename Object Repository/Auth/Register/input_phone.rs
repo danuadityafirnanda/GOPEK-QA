@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>Phone number input field on registration form</description>
+   <name>input_phone</name>
+   <tag></tag>
+   <elementGuidId>c9d0e1f2-a3b4-4c5d-6e7f-8a9b0c1d2e3f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid='input-phone']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid='input-phone']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid='input-phone']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>input-phone</value>
+      <webElementGuid>c9d0e1f2-a3b4-4c5d-6e7f-8a9b0c1d2e3f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

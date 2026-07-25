@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>Password input field on registration form</description>
+   <name>input_password_register</name>
+   <tag></tag>
+   <elementGuidId>d0e1f2a3-b4c5-4d6e-7f8a-9b0c1d2e3f4a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid='input-password-register']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid='input-password-register']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid='input-password-register']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>input-password-register</value>
+      <webElementGuid>d0e1f2a3-b4c5-4d6e-7f8a-9b0c1d2e3f4a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

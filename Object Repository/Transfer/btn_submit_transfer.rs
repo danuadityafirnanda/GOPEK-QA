@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>Submit button on transfer summary page</description>
+   <name>btn-submit-transfer</name>
+   <tag></tag>
+   <elementGuidId>a5b6c7d8-e9f0-4a1b-2c3d-4e5f6a7b8c9d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid='btn-submit-transfer']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid='btn-submit-transfer']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid='btn-submit-transfer']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>btn-submit-transfer</value>
+      <webElementGuid>a5b6c7d8-e9f0-4a1b-2c3d-4e5f6a7b8c9d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

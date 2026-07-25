@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>Link to login page from registration</description>
+   <name>link_login</name>
+   <tag></tag>
+   <elementGuidId>e7f8a9b0-c1d2-4e3f-4a5b-6c7d8e9f0a1b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid='link-login']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid='link-login']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid='link-login']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>link-login</value>
+      <webElementGuid>e7f8a9b0-c1d2-4e3f-4a5b-6c7d8e9f0a1b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

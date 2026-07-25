@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test registration with existing phone number and verify server error message</description>
+   <name>TC_Register_004_Existing_Phone</name>
+   <tag>Server-Side,Negative,Authentication,Registration</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d5e6f7a8-b9c0-4d1e-2f3a-4b5c6d7e8f9a</testCaseGuid>
+</TestCaseEntity>

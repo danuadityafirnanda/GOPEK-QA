@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>Quick amount button 50000 on transfer/topup/payment amount pages</description>
+   <name>btn_quick_amount_50000</name>
+   <tag></tag>
+   <elementGuidId>q1q2q3q4-w5w6-7e8e-9r0r-1t2t3t4t5t6t</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid='btn-quick-amount-50000']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid='btn-quick-amount-50000']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid='btn-quick-amount-50000']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>btn-quick-amount-50000</value>
+      <webElementGuid>q1q2q3q4-w5w6-7e8e-9r0r-1t2t3t4t5t6t</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

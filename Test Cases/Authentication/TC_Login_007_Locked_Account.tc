@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test login with locked account credentials and verify error message</description>
+   <name>TC_Login_007_Locked_Account</name>
+   <tag>Negative Test,Security Test</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e2f3a4b5-c6d7-4e8f-9a0b-1c2d3e4f5a6b</testCaseGuid>
+</TestCaseEntity>

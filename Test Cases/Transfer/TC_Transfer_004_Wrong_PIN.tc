@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test transfer with incorrect PIN to verify PIN validation and account security</description>
+   <name>TC_Transfer_004_Wrong_PIN</name>
+   <tag>Negative Test, Security Test</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f0a1b2c3-d4e5-4f6a-7b8c-9d0e1f2a3b4c</testCaseGuid>
+</TestCaseEntity>

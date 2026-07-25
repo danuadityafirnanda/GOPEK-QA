@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test registration with phone number exceeding maximum length (15 digits) and verify client-side validation error</description>
+   <name>TC_Register_016_Max_Phone_Length</name>
+   <tag>Authentication, Registration, Negative, Client-Side</tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testCaseGuid>d7e8f9a0-b1c2-4d3e-4f5a-6b7c8d9e0f1a</testCaseGuid>
+</TestCaseEntity>

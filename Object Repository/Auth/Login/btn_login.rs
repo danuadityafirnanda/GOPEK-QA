@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>Login submit button</description>
+   <name>btn_login</name>
+   <tag></tag>
+   <elementGuidId>d4e5f6a7-b8c9-4d5e-1f2a-3b4c5d6e7f8a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid='btn-login']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid='btn-login']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid='btn-login']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>btn-login</value>
+      <webElementGuid>d4e5f6a7-b8c9-4d5e-1f2a-3b4c5d6e7f8a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

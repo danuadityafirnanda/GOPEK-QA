@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test transfer with amount exceeding wallet balance to verify insufficient balance validation</description>
+   <name>TC_Transfer_003_Insufficient_Balance</name>
+   <tag>Validation Test,Negative Test</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e9f0a1b2-c3d4-4e5f-6a7b-8c9d0e1f2a3b</testCaseGuid>
+</TestCaseEntity>

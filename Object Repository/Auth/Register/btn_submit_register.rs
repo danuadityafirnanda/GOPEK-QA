@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>Submit button on final registration step</description>
+   <name>btn_submit_register</name>
+   <tag></tag>
+   <elementGuidId>d6e7f8a9-b0c1-4d2e-3f4a-5b6c7d8e9f0a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid='btn-submit-register']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid='btn-submit-register']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid='btn-submit-register']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>btn-submit-register</value>
+      <webElementGuid>d6e7f8a9-b0c1-4d2e-3f4a-5b6c7d8e9f0a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

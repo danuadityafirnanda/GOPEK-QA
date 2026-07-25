@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test successful registration flow with all 3 steps: account information, PIN setup, and PIN confirmation</description>
+   <name>TC_Register_001_Valid_Complete_Flow</name>
+   <tag>Smoke Test,E2E,Positive Test</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>PIN input field on registration form (step 1)</description>
+   <name>input_pin</name>
+   <tag></tag>
+   <elementGuidId>f2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b6c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid='input-pin']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid='input-pin']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid='input-pin']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>input-pin</value>
+      <webElementGuid>f2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b6c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

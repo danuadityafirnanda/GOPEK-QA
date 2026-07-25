@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test transfer with invalid/non-existent account number to verify account validation works correctly</description>
+   <name>TC_Transfer_002_Invalid_Account_Number</name>
+   <tag>Negative Test, Validation Test</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d8e9f0a1-b2c3-4d4e-5f6a-7b8c9d0e1f2a</testCaseGuid>
+</TestCaseEntity>
+</TestCaseEntity>

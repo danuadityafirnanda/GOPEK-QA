@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>Transfer note/description input field</description>
+   <name>input_transfer_note</name>
+   <tag></tag>
+   <elementGuidId>b0c1d2e3-f4a5-4b6c-7d8e-9f0a1b2c3d4e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid='input-transfer-note']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid='input-transfer-note']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid='input-transfer-note']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>input-transfer-note</value>
+      <webElementGuid>b0c1d2e3-f4a5-4b6c-7d8e-9f0a1b2c3d4e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

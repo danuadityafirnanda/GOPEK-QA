@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test login form submission with empty email and password fields to verify required field validation</description>
+   <name>TC_Login_004_Empty_Fields</name>
+   <tag>Negative Test, Validation Test</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a</testCaseGuid>
+</TestCaseEntity>

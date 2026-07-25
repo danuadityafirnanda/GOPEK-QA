@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test registration with duplicate email address to verify server-side validation prevents duplicate accounts</description>
+   <name>TC_Register_002_Duplicate_Email</name>
+   <tag>Validation Test,Negative Test</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d</testCaseGuid>
+</TestCaseEntity>

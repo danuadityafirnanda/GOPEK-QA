@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>Generic continue to PIN button</description>
+   <name>btn_continue_to_pin</name>
+   <tag></tag>
+   <elementGuidId>y4y5y6y7-z8z9-4a0a-1b2b-3c4c5c6c7c8c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid='btn-continue-to-pin']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid='btn-continue-to-pin']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid='btn-continue-to-pin']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>btn-continue-to-pin</value>
+      <webElementGuid>y4y5y6y7-z8z9-4a0a-1b2b-3c4c5c6c7c8c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

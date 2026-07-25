@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>Continue button on transfer amount page</description>
+   <name>btn_continue_transfer_amount</name>
+   <tag></tag>
+   <elementGuidId>c1d2e3f4-a5b6-4c7d-8e9f-0a1b2c3d4e5f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid='btn-continue-transfer-amount']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid='btn-continue-transfer-amount']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid='btn-continue-transfer-amount']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>btn-continue-transfer-amount</value>
+      <webElementGuid>c1d2e3f4-a5b6-4c7d-8e9f-0a1b2c3d4e5f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

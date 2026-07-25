@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test successful transfer flow with all 3 steps: check valid account, enter amount, and complete transfer with PIN</description>
+   <name>TC_Transfer_001_Valid_Complete_Flow</name>
+   <tag>Smoke Test,E2E,Positive Test</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c7d8e9f0-a1b2-4c3d-4e5f-6a7b8c9d0e1f</testCaseGuid>
+</TestCaseEntity>

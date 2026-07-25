@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>Invalid recipient card on transfer form (red/error state)</description>
+   <name>card_account_invalid</name>
+   <tag></tag>
+   <elementGuidId>w2w3w4w5-x6x7-4y8y-9z0z-1a2a3a4a5a6a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid='card-account-invalid']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid='card-account-invalid']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid='card-account-invalid']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>card-account-invalid</value>
+      <webElementGuid>w2w3w4w5-x6x7-4y8y-9z0z-1a2a3a4a5a6a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

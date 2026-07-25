@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test back navigation from summary step and verify return to amount step</description>
+   <name>TC_Transfer_011_Back_From_Summary</name>
+   <tag>Transfer, UI, Navigation</tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testCaseGuid>a7b8c9d0-e1f2-3456-ghij-567890123456</testCaseGuid>
+</TestCaseEntity>

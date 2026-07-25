@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test login with valid ADMIN credentials and verify redirect to admin dashboard</description>
+   <name>TC_Login_006_Admin_Login</name>
+   <tag>Positive Test,Admin Test</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d1e2f3a4-b5c6-4d7e-8f9a-0b1c2d3e4f5a</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>Account number copy badge on home page</description>
+   <name>badge_home_account_number</name>
+   <tag></tag>
+   <elementGuidId>c5d6e7f8-a9b0-4c1d-2e3f-4a5b6c7d8e9f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid='badge-home-account-number']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid='badge-home-account-number']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid='badge-home-account-number']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>badge-home-account-number</value>
+      <webElementGuid>c5d6e7f8-a9b0-4c1d-2e3f-4a5b6c7d8e9f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

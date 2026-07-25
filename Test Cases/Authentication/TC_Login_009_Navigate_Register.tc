@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test navigation from login page to register page via register link</description>
+   <name>TC_Login_009_Navigate_Register</name>
+   <tag>UI Test, Navigation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a4b5c6d7-e8f9-4a0b-1c2d-3e4f5a6b7c8d</testCaseGuid>
+</TestCaseEntity>

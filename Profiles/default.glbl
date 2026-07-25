@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description>Global variables for Gopek E-Wallet test automation</description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Base URL for the application</description>
+      <initValue>'https://gopek.live'</initValue>
+      <name>BASE_URL</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Test user email (Danu)</description>
+      <initValue>'danu@test.com'</initValue>
+      <name>TEST_USER_EMAIL</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Test user password</description>
+      <initValue>'12345678'</initValue>
+      <name>TEST_USER_PASSWORD</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Test user PIN</description>
+      <initValue>'123456'</initValue>
+      <name>TEST_USER_PIN</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Test user account number (Danu - 9001000002)</description>
+      <initValue>'9001000002'</initValue>
+      <name>TEST_USER_ACCOUNT</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Destination account 1 (Andi - 9001000003)</description>
+      <initValue>'9001000003'</initValue>
+      <name>TEST_DEST_ACCOUNT_1</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Destination account 2 / Locked account (Akmal - 9001000004)</description>
+      <initValue>'9001000004'</initValue>
+      <name>TEST_DEST_ACCOUNT_LOCKED</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Invalid account number for negative testing</description>
+      <initValue>'9999999999'</initValue>
+      <name>TEST_INVALID_ACCOUNT</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Locked account email</description>
+      <initValue>'locked@test.com'</initValue>
+      <name>TEST_LOCKED_EMAIL</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test transfer with note exceeding 100 characters and verify client-side validation error</description>
+   <name>TC_Transfer_008_Note_Exceeds_Length</name>
+   <tag>Transfer, Negative, Client-Side</tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testCaseGuid>b2c3d4e5-f6a7-8901-bcde-f12345678901</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>Link to registration page from login</description>
+   <name>link_register</name>
+   <tag></tag>
+   <elementGuidId>e5f6a7b8-c9d0-4e5f-2a3b-4c5d6e7f8a9b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid='link-register']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid='link-register']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid='link-register']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>link-register</value>
+      <webElementGuid>e5f6a7b8-c9d0-4e5f-2a3b-4c5d6e7f8a9b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

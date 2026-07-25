@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>Continue button on registration steps</description>
+   <name>btn_continue</name>
+   <tag></tag>
+   <elementGuidId>b4c5d6e7-f8a9-4b0c-1d2e-3f4a5b6c7d8e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid='btn-continue']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid='btn-continue']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid='btn-continue']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>btn-continue</value>
+      <webElementGuid>b4c5d6e7-f8a9-4b0c-1d2e-3f4a5b6c7d8e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

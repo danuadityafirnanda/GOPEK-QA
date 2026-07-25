@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>Password confirmation input field on registration form</description>
+   <name>input_password_confirmation</name>
+   <tag></tag>
+   <elementGuidId>e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid='input-password-confirmation']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid='input-password-confirmation']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid='input-password-confirmation']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>input-password-confirmation</value>
+      <webElementGuid>e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
