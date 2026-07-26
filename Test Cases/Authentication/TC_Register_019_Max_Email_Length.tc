@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <name>TC_Register_019_Max_Email_Length</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c9d0e1f2-a3b4-5c6d-7e8f-9a0b1c2d3e4f</testCaseGuid>
+</TestCaseEntity>

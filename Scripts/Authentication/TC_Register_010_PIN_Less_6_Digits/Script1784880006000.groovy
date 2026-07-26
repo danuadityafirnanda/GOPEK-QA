@@ -17,9 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.BASE_URL + '/register')
+WebUI.openBrowser(GlobalVariable.BASE_URL + '/register')
 
 WebUI.maximizeWindow()
 
@@ -31,7 +29,7 @@ WebUI.takeFullPageScreenshot('Screenshots/REG010_01_RegisterPageLoaded.png')
 
 WebUI.setText(findTestObject('Auth/Register/input_fullname'), 'Test PIN Short')
 
-WebUI.setText(findTestObject('Auth/Register/input_email_register'), 'pinshort' + System.currentTimeMillis() + '@example.com')
+WebUI.setText(findTestObject('Auth/Register/input_email_register'), ('pinshort' + System.currentTimeMillis()) + '@example.com')
 
 WebUI.setText(findTestObject('Auth/Register/input_phone'), '08' + System.currentTimeMillis().toString().substring(3, 12))
 
@@ -43,28 +41,33 @@ WebUI.takeFullPageScreenshot('Screenshots/REG010_02_Step0_AccountInfoFilled.png'
 
 WebUI.click(findTestObject('Auth/Register/btn_continue'))
 
-WebUI.delay(3)
-
 WebUI.takeFullPageScreenshot('Screenshots/REG010_03_Step1_PINPage.png')
 
-String currentUrl = WebUI.getUrl()
-assert currentUrl.contains('/register')
+WebUI.delay(3)
 
-String shortPin = '123'
-String[] pinDigits = shortPin.split('')
+String pin = '1234'
+
+String[] pinDigits = pin.split('')
 
 for (String digit : pinDigits) {
     WebUI.click(findTestObject('Common/btn_pin_digit_' + digit))
+
     WebUI.delay(0.3)
 }
 
+WebUI.click(findTestObject('Auth/Register/btn_continue'))
+
 WebUI.takeFullPageScreenshot('Screenshots/REG010_04_Step1_ShortPINEntered.png')
 
-WebUI.delay(2)
+String errorText = WebUI.getText(findTestObject('Common/error_pin'))
 
-WebUI.takeFullPageScreenshot('Screenshots/REG010_05_ContinueButtonDisabled.png')
+assert errorText.contains('6 digits')
 
-currentUrl = WebUI.getUrl()
-assert currentUrl.contains('/register')
+WebUI.takeFullPageScreenshot('Screenshots/REG010_05_ErrorShown.png')
+
+String currentUrl = WebUI.getUrl()
+
+assert currentUrl.contains('/register') : 'Should stay on register page for short PIN'
 
 WebUI.closeBrowser()
+

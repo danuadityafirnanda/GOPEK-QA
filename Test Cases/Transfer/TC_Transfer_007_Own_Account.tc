@@ -2,13 +2,8 @@
 <TestCaseEntity>
    <description>Test transfer to own account and verify red card validation error</description>
    <name>TC_Transfer_007_Own_Account</name>
-   <tag>Transfer, Negative, Server-Side</tag>
-   <isRerun>false</isRerun>
-   <mailRecipient></mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
-   <pageLoadTimeout>30</pageLoadTimeout>
-   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
-   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
+   <tag>Server-Side,Negative,Transfer</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>d4e5f6a7-b8c9-0123-def0-234567890123</testCaseGuid>
 </TestCaseEntity>

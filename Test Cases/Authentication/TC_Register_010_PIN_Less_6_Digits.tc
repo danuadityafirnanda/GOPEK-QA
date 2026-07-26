@@ -2,13 +2,8 @@
 <TestCaseEntity>
    <description>Test registration with PIN less than 6 digits and verify client-side validation error</description>
    <name>TC_Register_010_PIN_Less_6_Digits</name>
-   <tag>Authentication, Registration, Negative, Client-Side</tag>
-   <isRerun>false</isRerun>
-   <mailRecipient></mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
-   <pageLoadTimeout>30</pageLoadTimeout>
-   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
-   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
+   <tag>Negative,Authentication,Registration,Client-Side</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>d1e2f3a4-b5c6-4d7e-8f9a-0b1c2d3e4f5a</testCaseGuid>
 </TestCaseEntity>

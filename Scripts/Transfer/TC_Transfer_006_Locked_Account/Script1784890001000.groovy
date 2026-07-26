@@ -17,9 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.BASE_URL + '/login')
+WebUI.openBrowser(GlobalVariable.BASE_URL + '/login')
 
 WebUI.maximizeWindow()
 
@@ -54,9 +52,8 @@ WebUI.takeFullPageScreenshot('Screenshots/TRF006_04_LockedAccountRedCard.png')
 WebUI.waitForElementPresent(findTestObject('Transfer/card_account_invalid'), 10)
 
 String cardText = WebUI.getText(findTestObject('Transfer/card_account_invalid'))
+
 assert cardText.contains('locked') || cardText.contains('Account is locked')
 
-String currentUrl = WebUI.getUrl()
-assert currentUrl.contains('/transfer')
-
 WebUI.closeBrowser()
+

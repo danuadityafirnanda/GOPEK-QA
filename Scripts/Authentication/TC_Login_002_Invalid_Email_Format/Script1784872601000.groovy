@@ -17,9 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.BASE_URL + '/login')
+WebUI.openBrowser(GlobalVariable.BASE_URL + '/login')
 
 WebUI.maximizeWindow()
 
@@ -38,6 +36,11 @@ WebUI.click(findTestObject('Auth/Login/btn_login'))
 WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot('Screenshots/LOG002_03_AfterSubmit.png')
+
+WebUI.waitForElementPresent(findTestObject('Common/error_amount_field'), 10)
+
+String errorText = WebUI.getText(findTestObject('Common/error_amount_field'))
+assert errorText.contains('Invalid email format') || errorText.contains('invalid email format')
 
 String currentUrl = WebUI.getUrl()
 assert currentUrl.contains('/login') : "Should stay on login page for invalid email format"

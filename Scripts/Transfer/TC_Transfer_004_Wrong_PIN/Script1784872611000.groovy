@@ -17,9 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.BASE_URL + '/login')
+WebUI.openBrowser(GlobalVariable.BASE_URL + '/login')
 
 WebUI.maximizeWindow()
 
@@ -69,11 +67,15 @@ WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot('Screenshots/TRF004_07_SummaryPage.png')
 
-String wrongPin = '999999'
+WebUI.click(findTestObject('Page_Gopek  Digital Wallet/button_continue_transfer_summary'))
+
+String wrongPin = '111111'
+
 String[] pinDigits = wrongPin.split('')
 
 for (String digit : pinDigits) {
     WebUI.click(findTestObject('Common/btn_pin_digit_' + digit))
+
     WebUI.delay(0.3)
 }
 
@@ -81,16 +83,17 @@ WebUI.takeFullPageScreenshot('Screenshots/TRF004_08_WrongPINEntered.png')
 
 WebUI.click(findTestObject('Transfer/btn_submit_transfer'))
 
-WebUI.delay(5)
-
 WebUI.waitForElementPresent(findTestObject('Common/toast'), 10)
+
+String toastText = WebUI.getText(findTestObject('Common/toast'))
 
 WebUI.takeFullPageScreenshot('Screenshots/TRF004_09_InvalidPINError.png')
 
-String toastText = WebUI.getText(findTestObject('Common/toast'))
 assert toastText.contains('Invalid PIN') || toastText.contains('PIN')
 
 String currentUrl = WebUI.getUrl()
-assert !currentUrl.contains('/status/')
+
+assert !(currentUrl.contains('/status/'))
 
 WebUI.closeBrowser()
+

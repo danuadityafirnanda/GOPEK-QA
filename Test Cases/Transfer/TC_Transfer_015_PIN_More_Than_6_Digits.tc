@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <name>TC_Transfer_015_PIN_More_Than_6_Digits</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b2c3d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e</testCaseGuid>
+</TestCaseEntity>

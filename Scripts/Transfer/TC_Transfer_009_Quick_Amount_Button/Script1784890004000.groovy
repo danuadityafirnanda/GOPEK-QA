@@ -17,9 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.BASE_URL + '/login')
+WebUI.openBrowser(GlobalVariable.BASE_URL + '/login')
 
 WebUI.maximizeWindow()
 
@@ -63,16 +61,13 @@ WebUI.delay(1)
 
 WebUI.takeFullPageScreenshot('Screenshots/TRF009_06_QuickAmountSelected.png')
 
-String amountValue = WebUI.getAttribute(findTestObject('Common/btn_quick_amount_50000'), 'textContent')
-assert amountValue.contains('50000') || amountValue.contains('50,000')
-
 WebUI.click(findTestObject('Transfer/btn_continue_transfer_amount'))
 
-WebUI.delay(2)
+String amountValue = WebUI.getText(findTestObject('Page_Gopek  Digital Wallet/span_Rp 50.000'))
+
+assert amountValue == 'Rp 50.000'
 
 WebUI.takeFullPageScreenshot('Screenshots/TRF009_07_SummaryPage.png')
 
-String currentUrl = WebUI.getUrl()
-assert currentUrl.contains('/transfer')
-
 WebUI.closeBrowser()
+

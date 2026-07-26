@@ -62,7 +62,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Locked account email</description>
-      <initValue>'locked@test.com'</initValue>
+      <initValue>'akmal@test.com'</initValue>
       <name>TEST_LOCKED_EMAIL</name>
       <protected>false</protected>
       <valueType>STRING</valueType>

@@ -17,9 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.BASE_URL + '/register')
+WebUI.openBrowser(GlobalVariable.BASE_URL + '/register')
 
 WebUI.maximizeWindow()
 
@@ -46,6 +44,11 @@ WebUI.click(findTestObject('Auth/Register/btn_continue'))
 WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot('Screenshots/REG009_03_ClientValidationError.png')
+
+WebUI.waitForElementPresent(findTestObject('Common/error_amount_field'), 10)
+
+String errorText = WebUI.getText(findTestObject('Common/error_amount_field'))
+assert errorText.toLowerCase().contains('passwords do not match')
 
 String currentUrl = WebUI.getUrl()
 assert currentUrl.contains('/register')

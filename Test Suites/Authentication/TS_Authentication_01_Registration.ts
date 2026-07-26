@@ -2,7 +2,7 @@
 <TestSuiteEntity>
    <description>Complete test suite for Authentication - Registration flow with comprehensive positive and negative test coverage including client-side and server-side validation</description>
    <name>TS_Authentication_01_Registration</name>
-   <tag>Authentication, Registration, Regression, Comprehensive</tag>
+   <tag>Authentication,Registration,Regression,Comprehensive</tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -12,115 +12,136 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d</testSuiteGuid>
    <testCaseLink>
-      <guid>b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e</guid>
+      <guid>6618b90f-1de6-47ca-b8bd-a485dd64f1b3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Authentication/TC_Register_001_Valid_Complete_Flow</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f</guid>
+      <guid>a9c92924-3399-4410-8eb3-e285b58a187f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Authentication/TC_Register_002_Duplicate_Email</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a</guid>
+      <guid>7c807b1f-3ac7-42c9-828e-fc47bd7f13a6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Authentication/TC_Register_003_PIN_Mismatch</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b</guid>
+      <guid>6c2d8783-0b7f-497b-b89a-8ab13ee57b8d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Authentication/TC_Register_004_Existing_Phone</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c</guid>
+      <guid>044ad46d-f9d3-437e-b7b5-5f861c05dacc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Authentication/TC_Register_005_Invalid_Email_Format</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d</guid>
+      <guid>a45109c2-d0e1-423d-b23d-31d29e6a590d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Authentication/TC_Register_006_Phone_Not_08</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b8c9d0e1-f2a3-4b4c-5d6e-7f8a9b0c1d2e</guid>
+      <guid>d503b516-b873-4059-895d-47fd535e997d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Authentication/TC_Register_007_Weak_Password_No_Uppercase</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c9d0e1f2-a3b4-4c5d-6e7f-8a9b0c1d2e3f</guid>
+      <guid>63da5be4-c12b-4c47-b5ea-fa4b2f87d0d8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Authentication/TC_Register_008_Weak_Password_No_Number</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d0e1f2a3-b4c5-4d6e-7f8a-9b0c1d2e3f4a</guid>
+      <guid>11a43c08-7f30-4429-803a-5393a760f2d8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Authentication/TC_Register_009_Password_Mismatch</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b</guid>
+      <guid>db0b527a-fddc-4eef-9648-190d7d33755a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Authentication/TC_Register_010_PIN_Less_6_Digits</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b6c</guid>
+      <guid>516312ba-c40b-4233-8797-fc14552d7290</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Authentication/TC_Register_011_Weak_Password_No_Special</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a3b4c5d6-e7f8-4a9b-0c1d-2e3f4a5b6c7d</guid>
+      <guid>7134f2b8-5ee4-4758-a3ed-92c7fc5a484f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Authentication/TC_Register_012_Empty_Fields</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b4c5d6e7-f8a9-4b0c-1d2e-3f4a5b6c7d8e</guid>
+      <guid>fa6fae4a-f321-48b8-b77f-653125463936</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Authentication/TC_Register_013_Min_Name_Length</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c5d6e7f8-a9b0-4c1d-2e3f-4a5b6c7d8e9f</guid>
+      <guid>8cff9399-bc92-4246-a70d-303c6c4da5ac</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Authentication/TC_Register_014_Max_Name_Length</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d6e7f8a9-b0c1-4d2e-3f4a-5b6c7d8e9f0a</guid>
+      <guid>1ec7e9a2-3367-4607-a08f-0ac18dff02d0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Authentication/TC_Register_015_Min_Phone_Length</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e7f8a9b0-c1d2-4e3f-4a5b-6c7d8e9f0a1b</guid>
+      <guid>5d8e5865-a15c-4c5c-8c6f-dd7edd211aa0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Authentication/TC_Register_016_Max_Phone_Length</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5d6b7aea-45cc-48e9-9c30-4d2d568adc8d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Authentication/TC_Register_017_Weak_Password_No_Lowercase</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0d9479cb-8f3c-446d-a246-b10b65bec89d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Authentication/TC_Register_018_Min_Password_Length</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6d2ba2f2-38bd-4d88-bbb1-c34086fb4654</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Authentication/TC_Register_019_Max_Email_Length</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

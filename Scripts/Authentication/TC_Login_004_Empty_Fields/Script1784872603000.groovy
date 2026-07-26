@@ -17,9 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.BASE_URL + '/login')
+WebUI.openBrowser(GlobalVariable.BASE_URL + '/login')
 
 WebUI.maximizeWindow()
 
@@ -40,6 +38,11 @@ WebUI.click(findTestObject('Auth/Login/btn_login'))
 WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot('Screenshots/LOG004_03_AfterSubmitEmptyFields.png')
+
+WebUI.waitForElementPresent(findTestObject('Common/error_amount_field'), 10)
+
+String errorText = WebUI.getText(findTestObject('Common/error_amount_field'))
+assert errorText.contains('Email is required') || errorText.contains('email is required')
 
 String currentUrl = WebUI.getUrl()
 assert currentUrl.contains('/login') : "Should stay on login page when fields are empty"

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <name>TC_Transfer_014_PIN_Less_Than_6_Digits</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d</testCaseGuid>
+</TestCaseEntity>

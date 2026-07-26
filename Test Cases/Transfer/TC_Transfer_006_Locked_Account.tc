@@ -2,13 +2,8 @@
 <TestCaseEntity>
    <description>Test transfer to locked account and verify red card validation error</description>
    <name>TC_Transfer_006_Locked_Account</name>
-   <tag>Transfer, Negative, Server-Side</tag>
-   <isRerun>false</isRerun>
-   <mailRecipient></mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
-   <pageLoadTimeout>30</pageLoadTimeout>
-   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
-   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
+   <tag>Server-Side,Negative,Transfer</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>c3d4e5f6-a7b8-9012-cdef-123456789012</testCaseGuid>
 </TestCaseEntity>

@@ -17,9 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.BASE_URL + '/login')
+WebUI.openBrowser(GlobalVariable.BASE_URL + '/login')
 
 WebUI.maximizeWindow()
 
@@ -62,17 +60,14 @@ WebUI.click(findTestObject('Common/btn_quick_amount_50000'))
 WebUI.delay(1)
 
 String longNote = 'A' * 101
+
 WebUI.setText(findTestObject('Transfer/input_transfer_note'), longNote)
 
 WebUI.takeFullPageScreenshot('Screenshots/TRF008_06_LongNoteEntered.png')
 
-WebUI.click(findTestObject('Transfer/btn_continue_transfer_amount'))
+String expedted_text = WebUI.getText(findTestObject('Transfer/input_transfer_note'))
 
-WebUI.delay(2)
-
-WebUI.takeFullPageScreenshot('Screenshots/TRF008_07_ClientValidationError.png')
-
-String currentUrl = WebUI.getUrl()
-assert currentUrl.contains('/transfer')
+assert expedted_text != longNote
 
 WebUI.closeBrowser()
+

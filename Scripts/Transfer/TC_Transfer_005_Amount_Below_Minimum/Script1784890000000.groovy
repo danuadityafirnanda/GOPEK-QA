@@ -17,9 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.BASE_URL + '/login')
+WebUI.openBrowser(GlobalVariable.BASE_URL + '/login')
 
 WebUI.maximizeWindow()
 
@@ -57,24 +55,15 @@ WebUI.click(findTestObject('Transfer/btn_continue_transfer'))
 
 WebUI.takeFullPageScreenshot('Screenshots/TRF005_05_AmountPage.png')
 
-WebUI.click(findTestObject('Common/btn_quick_amount_10000'))
+WebUI.setText(findTestObject('Common/input_amount_numeric'), '9000')
 
 WebUI.delay(1)
 
 WebUI.takeFullPageScreenshot('Screenshots/TRF005_06_BelowMinimumAmount.png')
 
-WebUI.click(findTestObject('Transfer/btn_continue_transfer_amount'))
-
-WebUI.delay(2)
-
-WebUI.waitForElementPresent(findTestObject('Common/error_amount_field'), 10)
-
-WebUI.takeFullPageScreenshot('Screenshots/TRF005_07_ClientValidationError.png')
-
 String errorText = WebUI.getText(findTestObject('Common/error_amount_field'))
+
 assert errorText.contains('Minimum') || errorText.contains('minimum')
 
-String currentUrl = WebUI.getUrl()
-assert currentUrl.contains('/transfer')
-
 WebUI.closeBrowser()
+

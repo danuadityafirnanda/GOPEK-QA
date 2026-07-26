@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <name>TC_Transfer_012_Empty_Destination_Account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e8f9a0b1-c2d3-4e5f-6a7b-8c9d0e1f2a3b</testCaseGuid>
+</TestCaseEntity>
