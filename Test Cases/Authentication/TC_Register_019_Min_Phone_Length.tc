@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test registration with phone number less than minimum length (10 digits) and verify client-side validation error</description>
+   <name>TC_Register_019_Min_Phone_Length</name>
+   <tag>Authentication, Registration, Negative, Client-Side</tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testCaseGuid>c6d7e8f9-a0b1-4c2d-3e4f-5a6b7c8d9e0f</testCaseGuid>
+</TestCaseEntity>

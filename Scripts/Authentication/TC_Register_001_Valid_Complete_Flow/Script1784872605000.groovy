@@ -81,7 +81,7 @@ WebUI.takeFullPageScreenshot('Screenshots/REG001_06_Step2_PINConfirmEntered.png'
 
 WebUI.click(findTestObject('Auth/Register/btn_submit_register'))
 
-WebUI.delay(5)
+WebUI.delay(8)
 
 currentUrl = WebUI.getUrl()
 

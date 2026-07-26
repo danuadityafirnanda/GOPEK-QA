@@ -23,30 +23,31 @@ WebUI.maximizeWindow()
 
 WebUI.waitForPageLoad(10)
 
-WebUI.verifyElementPresent(findTestObject('Auth/Login/form_login'), 10)
-
-WebUI.takeFullPageScreenshot('Screenshots/LOG008_01_LoginPageLoaded.png')
+WebUI.takeFullPageScreenshot('Screenshots/TRF010_01_LoginPage.png')
 
 WebUI.setText(findTestObject('Auth/Login/input_email'), GlobalVariable.TEST_USER_EMAIL)
 
-WebUI.takeFullPageScreenshot('Screenshots/LOG008_02_EmailFilled.png')
+WebUI.setText(findTestObject('Auth/Login/input_password'), GlobalVariable.TEST_USER_PASSWORD)
 
 WebUI.click(findTestObject('Auth/Login/btn_login'))
 
+WebUI.delay(5)
+
+WebUI.takeFullPageScreenshot('Screenshots/TRF010_02_Dashboard.png')
+
+WebUI.navigateToUrl(GlobalVariable.BASE_URL + '/transfer')
+
 WebUI.delay(2)
 
-WebUI.takeFullPageScreenshot('Screenshots/LOG008_03_AfterSubmit.png')
-
-WebUI.waitForElementPresent(findTestObject('Common/error_amount_field'), 10)
-
-String errorText = WebUI.getText(findTestObject('Common/error_amount_field'))
-assert errorText.contains('Password must be at least 8 characters')
+WebUI.takeFullPageScreenshot('Screenshots/TRF010_03_TransferPage.png')
 
 String currentUrl = WebUI.getUrl()
-assert currentUrl.contains('/login') : "Should stay on login page but got: ${currentUrl}"
 
-WebUI.takeFullPageScreenshot('Screenshots/LOG008_04_StayOnLoginPage.png')
+assert currentUrl.contains('/transfer') : 'Should stay on transfer page when account number is empty'
 
-WebUI.verifyElementClickable(findTestObject('Auth/Login/btn_login'))
+boolean buttonDisabled = WebUI.verifyElementNotClickable(findTestObject('Transfer/btn_check_account'), FailureHandling.OPTIONAL)
+
+assert buttonDisabled : 'Check Account button should be disabled when account number is empty'
 
 WebUI.closeBrowser()
+

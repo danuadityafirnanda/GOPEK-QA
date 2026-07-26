@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test registration with name exceeding maximum length (100 chars) and verify client-side validation error</description>
+   <name>TC_Register_018_Max_Name_Length</name>
+   <tag>Negative,Authentication,Registration,Client-Side</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b5c6d7e8-f9a0-4b1c-2d3e-4f5a6b7c8d9e</testCaseGuid>
+</TestCaseEntity>

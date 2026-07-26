@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_Login_008_Empty_Password</name>
+   <name>TC_Register_025_Phone_Special_Chars</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>f6a7b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c</testCaseGuid>
+   <testCaseGuid>d7e8f9a0-b1c2-3d4e-5f6a-7b8c9d0e1f2a</testCaseGuid>
 </TestCaseEntity>

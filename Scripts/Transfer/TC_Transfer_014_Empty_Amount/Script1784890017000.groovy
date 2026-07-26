@@ -23,30 +23,46 @@ WebUI.maximizeWindow()
 
 WebUI.waitForPageLoad(10)
 
-WebUI.verifyElementPresent(findTestObject('Auth/Login/form_login'), 10)
-
-WebUI.takeFullPageScreenshot('Screenshots/LOG008_01_LoginPageLoaded.png')
+WebUI.takeFullPageScreenshot('Screenshots/TRF014_01_LoginPage.png')
 
 WebUI.setText(findTestObject('Auth/Login/input_email'), GlobalVariable.TEST_USER_EMAIL)
 
-WebUI.takeFullPageScreenshot('Screenshots/LOG008_02_EmailFilled.png')
+WebUI.setText(findTestObject('Auth/Login/input_password'), GlobalVariable.TEST_USER_PASSWORD)
 
 WebUI.click(findTestObject('Auth/Login/btn_login'))
 
+WebUI.delay(5)
+
+WebUI.takeFullPageScreenshot('Screenshots/TRF014_02_Dashboard.png')
+
+WebUI.navigateToUrl(GlobalVariable.BASE_URL + '/transfer')
+
 WebUI.delay(2)
 
-WebUI.takeFullPageScreenshot('Screenshots/LOG008_03_AfterSubmit.png')
+WebUI.takeFullPageScreenshot('Screenshots/TRF014_03_TransferPage.png')
 
-WebUI.waitForElementPresent(findTestObject('Common/error_amount_field'), 10)
+WebUI.setText(findTestObject('Transfer/input_account_number'), GlobalVariable.TEST_DEST_ACCOUNT_1)
 
-String errorText = WebUI.getText(findTestObject('Common/error_amount_field'))
-assert errorText.contains('Password must be at least 8 characters')
+WebUI.click(findTestObject('Transfer/btn_check_account'))
+
+WebUI.delay(3)
+
+WebUI.waitForElementPresent(findTestObject('Transfer/card_account_valid'), 10)
+
+WebUI.takeFullPageScreenshot('Screenshots/TRF014_04_AccountValidated.png')
+
+WebUI.click(findTestObject('Transfer/btn_continue_transfer'))
+
+WebUI.takeFullPageScreenshot('Screenshots/TRF014_05_AmountPage.png')
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot('Screenshots/TRF014_06_EmptyAmount.png')
+
+boolean continueDisabled = WebUI.verifyElementNotClickable(findTestObject('Transfer/btn_continue_transfer_amount'), FailureHandling.OPTIONAL)
+assert continueDisabled : 'Continue button should be disabled when amount is empty'
 
 String currentUrl = WebUI.getUrl()
-assert currentUrl.contains('/login') : "Should stay on login page but got: ${currentUrl}"
-
-WebUI.takeFullPageScreenshot('Screenshots/LOG008_04_StayOnLoginPage.png')
-
-WebUI.verifyElementClickable(findTestObject('Auth/Login/btn_login'))
+assert currentUrl.contains('/transfer') : 'Should stay on transfer page when amount empty'
 
 WebUI.closeBrowser()

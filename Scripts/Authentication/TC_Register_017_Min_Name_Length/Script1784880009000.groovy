@@ -17,36 +17,46 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.BASE_URL + '/login')
+WebUI.openBrowser(GlobalVariable.BASE_URL + '/register')
 
 WebUI.maximizeWindow()
 
 WebUI.waitForPageLoad(10)
 
-WebUI.verifyElementPresent(findTestObject('Auth/Login/form_login'), 10)
+WebUI.verifyElementPresent(findTestObject('Auth/Register/form_register'), 10)
 
-WebUI.takeFullPageScreenshot('Screenshots/LOG008_01_LoginPageLoaded.png')
+WebUI.takeFullPageScreenshot('Screenshots/REG017_01_RegisterPageLoaded.png')
 
-WebUI.setText(findTestObject('Auth/Login/input_email'), GlobalVariable.TEST_USER_EMAIL)
+WebUI.setText(findTestObject('Auth/Register/input_fullname'), 'A')
 
-WebUI.takeFullPageScreenshot('Screenshots/LOG008_02_EmailFilled.png')
+WebUI.setText(findTestObject('Auth/Register/input_email_register'), 'minname' + System.currentTimeMillis() + '@example.com')
 
-WebUI.click(findTestObject('Auth/Login/btn_login'))
+WebUI.setText(findTestObject('Auth/Register/input_phone'), '08123456789')
+
+WebUI.setText(findTestObject('Auth/Register/input_password_register'), 'Password123!')
+
+WebUI.setText(findTestObject('Auth/Register/input_password_confirmation'), 'Password123!')
+
+WebUI.takeFullPageScreenshot('Screenshots/REG017_02_MinNameFilled.png')
+
+WebUI.click(findTestObject('Auth/Register/btn_continue'))
 
 WebUI.delay(2)
 
-WebUI.takeFullPageScreenshot('Screenshots/LOG008_03_AfterSubmit.png')
+WebUI.takeFullPageScreenshot('Screenshots/REG017_03_ClientValidationError.png')
 
 WebUI.waitForElementPresent(findTestObject('Common/error_amount_field'), 10)
 
 String errorText = WebUI.getText(findTestObject('Common/error_amount_field'))
-assert errorText.contains('Password must be at least 8 characters')
+
+assert errorText.toLowerCase().contains('name') || errorText.toLowerCase().contains('required') || errorText.toLowerCase().contains('character') : "Expected error about name validation but got: ${errorText}"
+
+WebUI.takeFullPageScreenshot('Screenshots/REG017_04_ErrorShown.png')
 
 String currentUrl = WebUI.getUrl()
-assert currentUrl.contains('/login') : "Should stay on login page but got: ${currentUrl}"
 
-WebUI.takeFullPageScreenshot('Screenshots/LOG008_04_StayOnLoginPage.png')
+assert currentUrl.contains('/register') : 'Should stay on register page for invalid name'
 
-WebUI.verifyElementClickable(findTestObject('Auth/Login/btn_login'))
+WebUI.verifyElementPresent(findTestObject('Auth/Register/form_register'), 5)
 
 WebUI.closeBrowser()

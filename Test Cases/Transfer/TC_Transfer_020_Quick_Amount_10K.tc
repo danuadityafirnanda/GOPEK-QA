@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_Login_008_Empty_Password</name>
+   <name>TC_Transfer_020_Quick_Amount_10K</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>

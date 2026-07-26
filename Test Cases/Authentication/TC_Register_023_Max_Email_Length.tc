@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_Login_008_Empty_Password</name>
+   <name>TC_Register_023_Max_Email_Length</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>f6a7b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c</testCaseGuid>
+   <testCaseGuid>c9d0e1f2-a3b4-5c6d-7e8f-9a0b1c2d3e4f</testCaseGuid>
 </TestCaseEntity>

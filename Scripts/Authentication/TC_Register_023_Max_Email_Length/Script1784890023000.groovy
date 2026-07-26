@@ -17,36 +17,41 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.BASE_URL + '/login')
+WebUI.openBrowser(GlobalVariable.BASE_URL + '/register')
 
 WebUI.maximizeWindow()
 
 WebUI.waitForPageLoad(10)
 
-WebUI.verifyElementPresent(findTestObject('Auth/Login/form_login'), 10)
+WebUI.verifyElementPresent(findTestObject('Auth/Register/form_register'), 10)
 
-WebUI.takeFullPageScreenshot('Screenshots/LOG008_01_LoginPageLoaded.png')
+WebUI.takeFullPageScreenshot('Screenshots/REG023_01_RegisterPageLoaded.png')
 
-WebUI.setText(findTestObject('Auth/Login/input_email'), GlobalVariable.TEST_USER_EMAIL)
+String longEmail = 'a'.multiply(95) + '@test.com'
 
-WebUI.takeFullPageScreenshot('Screenshots/LOG008_02_EmailFilled.png')
+WebUI.setText(findTestObject('Auth/Register/input_fullname'), 'Test User LongEmail')
 
-WebUI.click(findTestObject('Auth/Login/btn_login'))
+WebUI.setText(findTestObject('Auth/Register/input_email_register'), longEmail)
 
-WebUI.delay(2)
+WebUI.setText(findTestObject('Auth/Register/input_phone'), '081234567890')
 
-WebUI.takeFullPageScreenshot('Screenshots/LOG008_03_AfterSubmit.png')
+WebUI.setText(findTestObject('Auth/Register/input_password_register'), 'Password123!')
 
-WebUI.waitForElementPresent(findTestObject('Common/error_amount_field'), 10)
+WebUI.setText(findTestObject('Auth/Register/input_password_confirmation'), 'Password123!')
 
-String errorText = WebUI.getText(findTestObject('Common/error_amount_field'))
-assert errorText.contains('Password must be at least 8 characters')
+WebUI.takeFullPageScreenshot('Screenshots/REG023_02_LongEmailFilled.png')
+
+String expedted_text = WebUI.getText(findTestObject('Auth/Register/input_email_register'))
+
+assert expedted_text != longEmail
 
 String currentUrl = WebUI.getUrl()
-assert currentUrl.contains('/login') : "Should stay on login page but got: ${currentUrl}"
 
-WebUI.takeFullPageScreenshot('Screenshots/LOG008_04_StayOnLoginPage.png')
+assert currentUrl.contains('/register') : 'Should stay on register page (Step 0) for long email'
 
-WebUI.verifyElementClickable(findTestObject('Auth/Login/btn_login'))
+WebUI.takeFullPageScreenshot('Screenshots/REG023_04_StayOnRegisterPage.png')
+
+WebUI.verifyElementClickable(findTestObject('Auth/Register/btn_continue'))
 
 WebUI.closeBrowser()
+

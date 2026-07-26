@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>summary_description</name>
+   <tag></tag>
+   <elementGuidId>38dce4f4-99e8-4fdc-887f-f0b03fb0d954</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.space-y-1 > p.text-sm.font-medium</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[1]/following::p[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>d8f02244-70c3-4167-b97b-24adda1d9359</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-sm font-medium</value>
+      <webElementGuid>38089f73-4a83-4952-b830-df71186a1ad9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>asdfasdf</value>
+      <webElementGuid>3a9c2899-1e92-43ac-8002-4e122d45e074</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;satoshi_8aad1f86-module__xACpZa__variable antialiased dark&quot;]/body[@class=&quot;bg-background text-foreground&quot;]/div[@class=&quot;mx-auto flex min-h-dvh w-full flex-col&quot;]/div[@class=&quot;mx-auto flex min-h-dvh w-full max-w-[430px] flex-col border-x&quot;]/div[@class=&quot;flex flex-col flex-1&quot;]/div[@class=&quot;flex flex-col flex-1 min-h-0&quot;]/div[@class=&quot;flex-1 overflow-auto px-6 pt-8&quot;]/div[@class=&quot;space-y-6&quot;]/div[@class=&quot;group/card flex flex-col gap-(--card-spacing) overflow-hidden rounded-lg bg-card py-(--card-spacing) text-sm text-card-foreground ring-1 ring-foreground/10 [--card-spacing:--spacing(4)] has-data-[slot=card-footer]:pb-0 has-[>img:first-child]:pt-0 data-[size=sm]:[--card-spacing:--spacing(3)] data-[size=sm]:has-data-[slot=card-footer]:pb-0 *:[img:first-child]:rounded-t-lg *:[img:last-child]:rounded-b-lg&quot;]/div[@class=&quot;px-(--card-spacing) space-y-3&quot;]/div[@class=&quot;space-y-1&quot;]/p[@class=&quot;text-sm font-medium&quot;]</value>
+      <webElementGuid>ed2a28cd-0df5-42c5-8169-ce8db6c50879</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[1]/following::p[1]</value>
+      <webElementGuid>4b19eafd-9ee6-43b8-b1df-0d0f944a7ae4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 250.000'])[2]/following::p[1]</value>
+      <webElementGuid>3612e0c1-5bc8-4387-b739-fee0d902ca43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue'])[1]/preceding::p[2]</value>
+      <webElementGuid>7d20b825-0ee3-4163-95f4-e3dc1b225551</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='asdfasdf']/parent::*</value>
+      <webElementGuid>efa649bd-7e67-444a-914e-3e4efd47c381</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/p</value>
+      <webElementGuid>5686208d-65e3-4661-aab6-1d53e4aa185c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'asdfasdf' or . = 'asdfasdf')]</value>
+      <webElementGuid>0dbc1015-375d-482b-b396-6a4557b5bcfb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

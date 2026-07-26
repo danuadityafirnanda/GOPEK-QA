@@ -40,7 +40,7 @@ WebUI.takeFullPageScreenshot('Screenshots/LOG010_03_AfterSubmit.png')
 WebUI.waitForElementPresent(findTestObject('Common/error_amount_field'), 10)
 
 String errorText = WebUI.getText(findTestObject('Common/error_amount_field'))
-assert errorText.toLowerCase().contains('email') && errorText.toLowerCase().contains('required') : "Expected 'Email is required' error but got: ${errorText}"
+assert errorText.contains('Email is required')
 
 String currentUrl = WebUI.getUrl()
 assert currentUrl.contains('/login') : "Should stay on login page but got: ${currentUrl}"
