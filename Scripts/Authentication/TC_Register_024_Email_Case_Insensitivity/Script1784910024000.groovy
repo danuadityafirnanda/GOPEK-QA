@@ -10,9 +10,9 @@ WebUI.waitForPageLoad(10)
 
 WebUI.takeFullPageScreenshot('Screenshots/REG024_01_RegisterPageLoaded.png')
 
-String baseEmail = ('CaseSensitive' + System.currentTimeMillis()) + '@Example.COM'
+String baseEmail = ('CaseInsensitive' + System.currentTimeMillis()) + '@Example.COM'
 
-WebUI.setText(findTestObject('Auth/Register/input_fullname'), 'Test User CaseSensitive')
+WebUI.setText(findTestObject('Auth/Register/input_fullname'), 'Test User CaseInsensitive')
 
 WebUI.setText(findTestObject('Auth/Register/input_email_register'), baseEmail)
 
@@ -84,11 +84,11 @@ WebUI.takeFullPageScreenshot('Screenshots/REG024_07_LoginWithLowercase.png')
 
 WebUI.click(findTestObject('Auth/Login/btn_login'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
-String toastText = WebUI.getText(findTestObject('Common/toast'))
+String currentUrlLogin = WebUI.getUrl()
 
-assert toastText.contains('Invalid email or password')
+assert currentUrlLogin.contains('/home')
 
 WebUI.takeFullPageScreenshot('Screenshots/REG024_08_LoginSuccess.png')
 

@@ -176,7 +176,7 @@
       <guid>10851557-494f-41b0-9b1d-4600c01ecc43</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Authentication/TC_Register_024_Email_Case_Sensitivity</testCaseId>
+      <testCaseId>Test Cases/Authentication/TC_Register_024_Email_Case_Insensitivity</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
