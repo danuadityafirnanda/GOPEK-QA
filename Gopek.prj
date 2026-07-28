@@ -9,9 +9,9 @@
    <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>ENTERPRISE</modifiedEdition>
-   <modifiedVersion>11.2.1</modifiedVersion>
+   <modifiedVersion>11.3.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>/media/anonymous/JDT2/Mini Project/Source Code/On-going/QA/Gopek/Gopek.prj</projectFileLocation>
+   <projectFileLocation>C:\akmal\GOPEK-QA\Gopek.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
