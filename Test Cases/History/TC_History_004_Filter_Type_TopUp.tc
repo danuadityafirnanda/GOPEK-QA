@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_History_004_Filter_Type_TopUp</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ff6e6567-8838-4970-be98-1e55a90421f0</testCaseGuid>
+</TestCaseEntity>

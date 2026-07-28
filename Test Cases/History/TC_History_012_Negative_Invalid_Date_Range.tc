@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_History_012_Negative_Invalid_Date_Range</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d08138a8-a4af-493f-abe9-e7bfe12a79e6</testCaseGuid>
+</TestCaseEntity>

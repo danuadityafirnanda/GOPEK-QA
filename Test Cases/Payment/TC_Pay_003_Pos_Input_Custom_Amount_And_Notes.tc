@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Pay_003_Pos_Input_Custom_Amount_And_Notes</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>53e9f44d-e1b5-4bd2-b987-ae813ca7508e</testCaseGuid>
+</TestCaseEntity>

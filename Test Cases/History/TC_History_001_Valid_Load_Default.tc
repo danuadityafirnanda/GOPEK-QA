@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_History_001_Valid_Load_Default</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>25e3c524-02c6-465a-b7ff-85bdbd810865</testCaseGuid>
+</TestCaseEntity>

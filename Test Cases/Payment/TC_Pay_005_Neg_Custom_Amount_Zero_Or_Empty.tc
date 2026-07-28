@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Pay_005_Neg_Custom_Amount_Zero_Or_Empty</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7f2239cf-682c-4134-a1fd-d75bab3471cd</testCaseGuid>
+</TestCaseEntity>

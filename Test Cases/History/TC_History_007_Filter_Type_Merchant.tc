@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_History_007_Filter_Type_Merchant</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a27635a4-db03-4ac7-88be-7cb33707b145</testCaseGuid>
+</TestCaseEntity>

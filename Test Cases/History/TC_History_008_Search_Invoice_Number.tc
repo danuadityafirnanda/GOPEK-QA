@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_History_008_Search_Invoice_Number</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3542fe6e-7296-444d-b9b4-bb9742390a95</testCaseGuid>
+</TestCaseEntity>

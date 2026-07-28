@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_History_005_Filter_Type_Transfer</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>262d90f4-afed-4c25-b8df-e28f094d35c7</testCaseGuid>
+</TestCaseEntity>

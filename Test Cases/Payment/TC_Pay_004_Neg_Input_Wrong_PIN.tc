@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Pay_004_Neg_Input_Wrong_PIN</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>98640b29-7b11-4cca-acfa-e328e0f03451</testCaseGuid>
+</TestCaseEntity>

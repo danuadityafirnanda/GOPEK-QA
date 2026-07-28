@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Top UpPENDINGRp 5.000.00027 Jul 2026, 22_56</name>
+   <tag></tag>
+   <elementGuidId>bf00658e-0549-4c55-87f5-217a75375a1e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid = 'transaction-item-01399b88-aa71-4cd0-9e89-21e12cf69138']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid=&quot;transaction-item-01399b88-aa71-4cd0-9e89-21e12cf69138&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>55ac3563-abcd-461b-979d-266cb9c59ff5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center gap-3 rounded-xl shadow-sm border p-4 transition-colors hover:bg-yellow-500/20 border-yellow-500/20 bg-yellow-500/10</value>
+      <webElementGuid>ce61f84b-70c0-4812-9c2c-c80f555f60bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>transaction-item-01399b88-aa71-4cd0-9e89-21e12cf69138</value>
+      <webElementGuid>94ca7683-e972-4b31-b777-ab75d922ed9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/transactions/01399b88-aa71-4cd0-9e89-21e12cf69138</value>
+      <webElementGuid>dd99b754-1989-430d-b56e-974f001a9ee8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Top UpPENDINGRp 5.000.00027 Jul 2026, 22:56</value>
+      <webElementGuid>7d8562d6-7e3b-4375-8cf3-71e0d65c21d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-686f9a63da3c1a7ea8eeeefd5d64c63b</value>
+      <webElementGuid>4d050e70-1c84-4855-b99d-6a890726a5b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'transaction-item-01399b88-aa71-4cd0-9e89-21e12cf69138']</value>
+      <webElementGuid>58b4fdc7-727d-4235-814f-37b2ca102ab6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'transaction-item-01399b88-aa71-4cd0-9e89-21e12cf69138']</value>
+      <webElementGuid>965826b4-4912-482a-9da1-af981c3c0c58</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/transactions/01399b88-aa71-4cd0-9e89-21e12cf69138' and (text() = 'Top UpPENDINGRp 5.000.00027 Jul 2026, 22:56' or . = 'Top UpPENDINGRp 5.000.00027 Jul 2026, 22:56')]</value>
+      <webElementGuid>6a594631-6bc9-433d-807a-c90e97225d46</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

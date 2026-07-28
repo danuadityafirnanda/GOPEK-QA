@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Transfer-Rp 50.00027 Jul 2026, 22_28</name>
+   <tag></tag>
+   <elementGuidId>ccba4dbd-554a-41f1-aeb6-58a023a84988</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid = 'transaction-item-5937e44e-52c9-4a53-adea-9cdb28331bd7']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid=&quot;transaction-item-5937e44e-52c9-4a53-adea-9cdb28331bd7&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>854d7092-7944-4c37-a1f1-5b549d182ba0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center gap-3 rounded-xl shadow-sm border bg-card p-4 transition-colors hover:bg-accent</value>
+      <webElementGuid>0a7c0a42-5f31-4f61-a051-a5f4a172f4fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>transaction-item-5937e44e-52c9-4a53-adea-9cdb28331bd7</value>
+      <webElementGuid>695f98e9-5fac-456f-8ac3-58c64c0c6edc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/transactions/5937e44e-52c9-4a53-adea-9cdb28331bd7</value>
+      <webElementGuid>85d96fb5-891a-481f-b51b-b15236c3000c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Transfer-Rp 50.00027 Jul 2026, 22:28</value>
+      <webElementGuid>b2e98ea3-7c60-4f60-80e1-0e0a274936c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-d4adf784d2b066c502e961a29d961c8f</value>
+      <webElementGuid>66c0fec0-0451-4587-b7ba-beb7ee7ce7c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'transaction-item-5937e44e-52c9-4a53-adea-9cdb28331bd7']</value>
+      <webElementGuid>cff6be4f-bf2d-4bfb-9adc-8e7868feef6d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'transaction-item-5937e44e-52c9-4a53-adea-9cdb28331bd7']</value>
+      <webElementGuid>9312c56a-7e8c-4f62-92b3-1fe60be4ebce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/transactions/5937e44e-52c9-4a53-adea-9cdb28331bd7' and (text() = 'Transfer-Rp 50.00027 Jul 2026, 22:28' or . = 'Transfer-Rp 50.00027 Jul 2026, 22:28')]</value>
+      <webElementGuid>e52d35dc-7973-471c-92c0-9647014e7e2c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

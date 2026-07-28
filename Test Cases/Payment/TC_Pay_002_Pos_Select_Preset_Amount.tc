@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Pay_002_Pos_Select_Preset_Amount</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8d4d8e0d-ed7f-4b58-b7be-ef190de8860c</testCaseGuid>
+</TestCaseEntity>

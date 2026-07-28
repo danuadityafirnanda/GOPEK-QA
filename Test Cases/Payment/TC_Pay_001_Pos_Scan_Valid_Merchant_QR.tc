@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Pay_001_Pos_Scan_Valid_Merchant_QR</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>224b2220-8e12-4f3c-9dd7-46c6324ded33</testCaseGuid>
+</TestCaseEntity>

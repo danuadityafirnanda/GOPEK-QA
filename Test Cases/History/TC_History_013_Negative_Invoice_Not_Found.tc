@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_History_013_Negative_Invoice_Not_Found</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9507e19d-6e29-417c-916e-d02549b9aeba</testCaseGuid>
+</TestCaseEntity>

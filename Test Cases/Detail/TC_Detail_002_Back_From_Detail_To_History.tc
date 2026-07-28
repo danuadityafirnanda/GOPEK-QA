@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Detail_002_Back_From_Detail_To_History</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d6b33036-f7e8-442c-a78f-5a7113e68a12</testCaseGuid>
+</TestCaseEntity>

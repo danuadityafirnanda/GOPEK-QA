@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Detail_004_Click_Continue_Payment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>88cc3c56-3b4a-408d-b0a6-ded7a48f1925</testCaseGuid>
+</TestCaseEntity>

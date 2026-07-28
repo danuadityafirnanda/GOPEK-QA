@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_History_003_Filter_Direction_DEBIT</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c847f1a6-00de-46f3-ba53-80195a258bcb</testCaseGuid>
+</TestCaseEntity>

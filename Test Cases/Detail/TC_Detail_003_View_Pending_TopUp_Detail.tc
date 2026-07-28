@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Detail_003_View_Pending_TopUp_Detail</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3496071a-c9e3-49a4-92e3-4738cb71f0e7</testCaseGuid>
+</TestCaseEntity>

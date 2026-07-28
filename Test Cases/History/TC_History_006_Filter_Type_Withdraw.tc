@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_History_006_Filter_Type_Withdraw</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ecd889e6-4bf7-4c60-a730-6e1ec9a94af6</testCaseGuid>
+</TestCaseEntity>

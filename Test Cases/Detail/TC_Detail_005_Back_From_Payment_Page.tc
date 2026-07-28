@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Detail_005_Back_From_Payment_Page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f21f7268-c280-4753-b501-366034fe8b06</testCaseGuid>
+</TestCaseEntity>

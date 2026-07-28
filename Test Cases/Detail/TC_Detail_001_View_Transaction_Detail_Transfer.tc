@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Detail_001_View_Transaction_Detail_Transfer</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6f95679d-6f1f-4f13-84d4-90f87024e474</testCaseGuid>
+</TestCaseEntity>
