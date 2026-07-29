@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Negative test for top-up with decimal/fractional amounts - verify decimal values are handled appropriately (rounded, rejected, or accepted based on system design)</description>
+   <name>TC_TopUp_007_Format_Validation_Decimal</name>
+   <tag>Validation,GenAI,P1,High Priority,Negative Test</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>42313792-4106-42bf-a2e9-c19d426e4280</testCaseGuid>
+</TestCaseEntity>

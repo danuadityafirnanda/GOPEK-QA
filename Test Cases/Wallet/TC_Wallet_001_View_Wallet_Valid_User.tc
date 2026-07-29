@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test viewing wallet information with valid logged-in user - verify balance, account number, and user name display</description>
+   <name>TC_Wallet_001_View_Wallet_Valid_User</name>
+   <tag>GenAI,Smoke Test,Regression,Positive Test</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b1486fb0-6c3e-43d8-9d82-df069ca9e08a</testCaseGuid>
+</TestCaseEntity>

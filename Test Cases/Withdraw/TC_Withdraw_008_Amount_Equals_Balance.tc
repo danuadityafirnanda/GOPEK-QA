@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Boundary test for withdraw with amount equal to exact balance - verify withdraw succeeds, final balance becomes zero, and account remains functional</description>
+   <name>TC_Withdraw_008_Amount_Equals_Balance</name>
+   <tag>GenAI,P1,Boundary Test,High Priority,Edge Case,Positive Test</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9529c61b-b464-4a9f-ba75-4a140efd0d29</testCaseGuid>
+</TestCaseEntity>

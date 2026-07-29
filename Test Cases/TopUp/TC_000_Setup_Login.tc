@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Setup test case: Open browser and login once - reused by all TopUp test cases in test suite. Browser remains open for subsequent tests.</description>
+   <name>TC_000_Setup_Login</name>
+   <tag>P0,GenAI,Setup,Shared</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ae1d7598-3d57-49af-99ca-2b7a58d40833</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test withdraw amount entry with valid minimum amount (Rp 50.000) - Step 1 only - verify form accepts amount and advances to PIN entry step</description>
+   <name>TC_Withdraw_001_Valid_Minimum_Amount</name>
+   <tag>GenAI,Boundary Test,Smoke Test,Regression,Positive Test</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9f914a5c-bf4c-407b-8323-75649d4b0567</testCaseGuid>
+</TestCaseEntity>

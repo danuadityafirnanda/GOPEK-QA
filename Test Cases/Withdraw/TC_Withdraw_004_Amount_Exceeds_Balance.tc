@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test withdraw with amount exceeding account balance (Rp 2,000,000 when balance is lower) - verify insufficient balance error appears and cannot proceed to PIN entry step</description>
+   <name>TC_Withdraw_004_Amount_Exceeds_Balance</name>
+   <tag>P0,GenAI,Validation Test,Negative Test,Business Logic Test</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>868fd716-9b6a-4b96-8ee3-16703be9e24d</testCaseGuid>
+</TestCaseEntity>

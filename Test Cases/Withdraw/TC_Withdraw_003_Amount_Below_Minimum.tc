@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test withdraw with amount below minimum threshold (Rp 49,999) - verify validation error appears and cannot proceed to PIN entry step</description>
+   <name>TC_Withdraw_003_Amount_Below_Minimum</name>
+   <tag>P0,GenAI,Boundary Test,Validation Test,Negative Test</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>57ffa022-1236-438c-96e1-72f938851087</testCaseGuid>
+</TestCaseEntity>

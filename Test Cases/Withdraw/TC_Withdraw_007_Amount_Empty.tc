@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Negative test for withdraw with empty amount - verify Next button is disabled or validation error appears and blocks form progression</description>
+   <name>TC_Withdraw_007_Amount_Empty</name>
+   <tag>Validation,GenAI,P1,High Priority,Negative Test</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>568d78d4-2e2c-4f01-984a-f210bf5c11c6</testCaseGuid>
+</TestCaseEntity>

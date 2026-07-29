@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positive test for top-up with valid mid-range amounts (50K, 500K, 5M) - verify all amounts are accepted and transactions created successfully</description>
+   <name>TC_TopUp_003_Valid_Mid_Range_Amounts</name>
+   <tag>Multiple Amounts,GenAI,P1,High Priority,Positive Test</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>24d3edcf-bc09-47ef-b403-14617c2382f2</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Negative test for top-up with invalid format input (letters, special characters) - verify validation error or input prevention blocks invalid formats</description>
+   <name>TC_TopUp_006_Format_Validation_Special_Characters</name>
+   <tag>Validation,GenAI,P1,High Priority,Negative Test</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e6fcbeaf-8281-4f1e-b467-99056d8a5abf</testCaseGuid>
+</TestCaseEntity>

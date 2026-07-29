@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test top-up with empty amount field - verify validation error or submit button is disabled when amount is not provided</description>
+   <name>TC_TopUp_008_Amount_Empty</name>
+   <tag>P0,GenAI,Validation Test,Negative Test</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8e83a005-52cf-45aa-9729-aaf852afb116</testCaseGuid>
+</TestCaseEntity>

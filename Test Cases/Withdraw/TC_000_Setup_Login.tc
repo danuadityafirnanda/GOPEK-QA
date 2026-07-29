@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Setup test case: Open browser and login once - reused by all Withdraw test cases in test suite. Browser remains open for subsequent tests.</description>
+   <name>TC_000_Setup_Login</name>
+   <tag>P0,GenAI,Setup,Shared</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4281e79d-6585-46a1-a5d7-070e007f80d1</testCaseGuid>
+</TestCaseEntity>

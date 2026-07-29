@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>E2E test for complete withdraw flow with valid PIN - Step 1 (amount entry) + Step 2 (PIN entry via PIN pad and submission) - verify success and balance decrease</description>
+   <name>TC_Withdraw_010_Complete_Withdraw_Valid_PIN</name>
+   <tag>P0,GenAI,Smoke Test,Critical,E2E Test,Positive Test</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cd7568e2-021f-4a61-9051-20afc230e571</testCaseGuid>
+</TestCaseEntity>

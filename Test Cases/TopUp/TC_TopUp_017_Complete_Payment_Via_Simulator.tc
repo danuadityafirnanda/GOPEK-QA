@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>E2E test for complete top-up flow with payment via external simulator - create transaction, navigate to simulator, complete payment, verify success and balance increase</description>
+   <name>TC_TopUp_017_Complete_Payment_Via_Simulator</name>
+   <tag>P0,GenAI,Smoke Test,Integration Test,Critical,E2E Test</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dcca184a-6880-47b8-9032-a165841a0603</testCaseGuid>
+</TestCaseEntity>

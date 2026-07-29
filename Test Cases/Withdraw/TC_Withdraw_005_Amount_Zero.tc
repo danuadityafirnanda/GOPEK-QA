@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Negative test for withdraw with zero amount - verify validation error appears and form progression is blocked</description>
+   <name>TC_Withdraw_005_Amount_Zero</name>
+   <tag>Validation,GenAI,P1,High Priority,Negative Test</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d5743607-92be-44a1-8e51-262e2a666cdb</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positive test for withdraw with valid mid-range amounts (100K, 500K, 1M) - verify all amounts are accepted and form progresses to PIN step without validation errors</description>
+   <name>TC_Withdraw_002_Valid_Mid_Range_Amounts</name>
+   <tag>Multiple Amounts,GenAI,P1,High Priority,Positive Test</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>64ffb2a9-6a42-406c-94b9-40adf7cc0868</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test top-up with amount above maximum threshold (Rp 10,000,001) - verify validation error appears and transaction cannot be created</description>
+   <name>TC_TopUp_005_Amount_Above_Maximum</name>
+   <tag>P0,GenAI,Boundary Test,Validation Test,Negative Test</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ae51cfaa-07cb-43db-a006-e7942c95f97c</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Negative test for withdraw with negative amount - verify input prevents negative values or validation error appears and blocks form progression</description>
+   <name>TC_Withdraw_006_Amount_Negative</name>
+   <tag>Validation,GenAI,P1,High Priority,Negative Test</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ad2e6e8d-ea38-402e-8227-216003c89892</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test top-up with amount below minimum threshold (Rp 9,999) - verify validation error appears and transaction cannot be created</description>
+   <name>TC_TopUp_004_Amount_Below_Minimum</name>
+   <tag>P0,GenAI,Boundary Test,Validation Test,Negative Test</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>53e95e39-dcd9-486d-b9af-a2a6a098fb8a</testCaseGuid>
+</TestCaseEntity>
