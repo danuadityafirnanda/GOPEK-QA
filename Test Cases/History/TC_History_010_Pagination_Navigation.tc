@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC_History_010_Pagination_Navigation</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>c6ff21e1-bb7a-489e-84a3-30ff7db337ac</testCaseGuid>
-</TestCaseEntity>

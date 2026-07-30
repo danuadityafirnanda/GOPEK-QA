@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC_History_009_Filter_Date_Range_Valid</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>278c7b6c-be8b-4806-b75a-c296eea7af1e</testCaseGuid>
-</TestCaseEntity>

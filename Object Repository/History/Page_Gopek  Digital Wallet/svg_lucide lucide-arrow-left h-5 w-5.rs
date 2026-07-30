@@ -6,12 +6,16 @@
    <elementGuidId>6bd4a4de-fc03-4f1e-8723-542bc6c91a90</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' absolute ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' lucide ') and contains(concat(' ', normalize-space(@class), ' '), ' lucide-arrow-left ')]</value>
+         <key>CSS</key>
+         <value>.lucide.lucide-arrow-left</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>.absolute .lucide.lucide-arrow-left</value>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' lucide ') and contains(concat(' ', normalize-space(@class), ' '), ' lucide-arrow-left ')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' lucide ') and contains(concat(' ', normalize-space(@class), ' '), ' lucide-arrow-left ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>svg</value>
-      <webElementGuid>c291d63a-5e21-4f1a-90e3-f338149c515b</webElementGuid>
+      <webElementGuid>ea6fc907-2017-46f3-97b0-86d931b95946</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +35,7 @@
       <name>xmlns</name>
       <type>Main</type>
       <value>http://www.w3.org/2000/svg</value>
-      <webElementGuid>a783270b-6858-47dd-9454-ae1d7a410271</webElementGuid>
+      <webElementGuid>59c98b41-70cf-4dd0-9945-7df02eba9206</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +43,7 @@
       <name>width</name>
       <type>Main</type>
       <value>24</value>
-      <webElementGuid>fdc68be9-3422-4d5d-96f9-22c0b9262d59</webElementGuid>
+      <webElementGuid>297ff31d-c875-4b89-b644-664a4402f896</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +51,7 @@
       <name>height</name>
       <type>Main</type>
       <value>24</value>
-      <webElementGuid>19d1ea0f-2610-44fe-aa7c-0259f57e10da</webElementGuid>
+      <webElementGuid>0a37482c-9c4d-4929-bb49-aa292feb23d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +59,7 @@
       <name>viewBox</name>
       <type>Main</type>
       <value>0 0 24 24</value>
-      <webElementGuid>a060f2c5-a4ee-4b77-8266-953361fba338</webElementGuid>
+      <webElementGuid>a63e550a-3fa6-43eb-a281-d8148b7ac53b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +67,7 @@
       <name>fill</name>
       <type>Main</type>
       <value>none</value>
-      <webElementGuid>2bea3a99-01f2-487e-a4e3-c89debaa01a0</webElementGuid>
+      <webElementGuid>64324d54-e8fb-4c55-8c15-112f04b1ff46</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +75,7 @@
       <name>stroke</name>
       <type>Main</type>
       <value>currentColor</value>
-      <webElementGuid>b07939b3-e888-45f0-910e-8bcb1dd3c0cc</webElementGuid>
+      <webElementGuid>7c7344c6-dc07-4edc-a6af-69d57bcf8868</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +83,7 @@
       <name>stroke-width</name>
       <type>Main</type>
       <value>2</value>
-      <webElementGuid>df838c2f-c640-4a30-b99a-c3fc28f7eb74</webElementGuid>
+      <webElementGuid>71a9ae0f-b7ec-4886-bb4f-e575dc0d669a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -87,7 +91,7 @@
       <name>stroke-linecap</name>
       <type>Main</type>
       <value>round</value>
-      <webElementGuid>5c06a936-6951-4ffe-8da0-24feb09d3295</webElementGuid>
+      <webElementGuid>d4c27eed-3ff1-4208-99bc-49d5f36042db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -95,7 +99,7 @@
       <name>stroke-linejoin</name>
       <type>Main</type>
       <value>round</value>
-      <webElementGuid>33660aa2-36c2-487b-9d72-04c7e5f70efd</webElementGuid>
+      <webElementGuid>e962d6ba-3918-4e61-a9bf-b71c9c4d0225</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -103,7 +107,7 @@
       <name>class</name>
       <type>Main</type>
       <value>lucide lucide-arrow-left h-5 w-5</value>
-      <webElementGuid>a8589816-fa56-497d-8040-8ab50b5dc1d5</webElementGuid>
+      <webElementGuid>596e5343-3773-46b9-a7f7-fc77c29d5f5e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -111,24 +115,32 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>8b05d5f7-900f-4f15-b716-5fe022e506b2</webElementGuid>
+      <webElementGuid>bbf97262-baf7-405d-9793-b8ffd1e56254</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-37ed1f958a4c9a76b05e5fd46a9640e8</value>
-      <webElementGuid>f6812be3-15f8-4ab1-b789-cd705492a86d</webElementGuid>
+      <value>md5.v1-bfd4fd416419de9d540061467333b9e2</value>
+      <webElementGuid>8b43a7c1-68ae-4bf5-8e17-ba304a548c07</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' absolute ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' lucide ') and contains(concat(' ', normalize-space(@class), ' '), ' lucide-arrow-left ')]</value>
-      <webElementGuid>64dd84ee-eca1-4874-82bd-b2543a19624f</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' lucide ') and contains(concat(' ', normalize-space(@class), ' '), ' lucide-arrow-left ')]</value>
+      <webElementGuid>2b097eed-1d74-42ed-a4a8-50a0650501f5</webElementGuid>
    </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' lucide ') and contains(concat(' ', normalize-space(@class), ' '), ' lucide-arrow-left ')]</value>
+      <webElementGuid>e445ca15-02b1-42b6-9315-863294684544</webElementGuid>
+   </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>

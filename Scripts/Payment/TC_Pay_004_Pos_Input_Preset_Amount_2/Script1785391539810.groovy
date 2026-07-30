@@ -30,7 +30,7 @@ WebUI.click(findTestObject('Payment/Page_Gopek  Digital Wallet/button_Log in'))
 
 WebUI.click(findTestObject('Payment/Page_Gopek  Digital Wallet/svg_lucide lucide-qr-code size-8'))
 
-WebUI.click(findTestObject('Payment/Page_Gopek  Digital Wallet/button_Rp 10.000'))
+WebUI.click(findTestObject('Payment/Page_Gopek  Digital Wallet/button_Rp 100.000'))
 
 WebUI.click(findTestObject('Payment/Page_Gopek  Digital Wallet/button_Continue'))
 

@@ -6,16 +6,16 @@
    <elementGuidId>4f3d70a4-5520-4887-89ff-1740b42ade03</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'button' and (text() = 'Rp 10.000' or . = 'Rp 10.000')]</value>
+         <key>CSS</key>
+         <value>[data-testid=&quot;btn-quick-amount-10000&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//*[@data-testid = 'btn-quick-amount-10000']</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>[data-testid=&quot;btn-quick-amount-10000&quot;]</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'Rp 10.000' or . = 'Rp 10.000')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>4b623194-8070-4487-ab7c-719037037a09</webElementGuid>
+      <webElementGuid>54c0d9f7-2e3c-4be2-847a-e5ea1913163c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +35,7 @@
       <name>data-slot</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d316e194-dc86-482a-977a-19e74a780484</webElementGuid>
+      <webElementGuid>d5790700-6458-43e5-92e0-d906ff61a70d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,7 +43,7 @@
       <name>data-variant</name>
       <type>Main</type>
       <value>outline</value>
-      <webElementGuid>f2028587-ac3d-44a7-a686-d8066d02ba2d</webElementGuid>
+      <webElementGuid>1f080fdd-baf0-4a51-83c2-c49cbeb62a0f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,7 +51,7 @@
       <name>data-size</name>
       <type>Main</type>
       <value>lg</value>
-      <webElementGuid>f3b78f1c-115d-496f-9ca9-f0a6f543e0f6</webElementGuid>
+      <webElementGuid>9bac7525-c374-448e-a045-550621b44ba0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +59,7 @@
       <name>class</name>
       <type>Main</type>
       <value>group/button inline-flex shrink-0 cursor-pointer items-center justify-center rounded-md border bg-clip-padding whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-11 gap-1.5 px-4 has-data-[icon=inline-end]:pr-3 has-data-[icon=inline-start]:pl-3 font-medium text-base</value>
-      <webElementGuid>188e7358-b2fb-4c52-81c7-476901fe1fa7</webElementGuid>
+      <webElementGuid>f32f9855-d62a-44aa-89b5-5b9cc2573993</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -67,7 +67,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>fe31d332-c700-4083-a16d-0c460f24a5ef</webElementGuid>
+      <webElementGuid>1de6f9e7-5a32-4aa9-94cc-c7ddf2c8fb6f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -75,7 +75,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>btn-quick-amount-10000</value>
-      <webElementGuid>2630c3ef-b397-4e6b-9d2d-cb8ad69fd744</webElementGuid>
+      <webElementGuid>b4cd77ec-45a0-4aa8-8c67-ad91db4714dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -83,7 +83,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Rp 10.000</value>
-      <webElementGuid>b98e912d-7054-4260-8fae-9aa018c120b7</webElementGuid>
+      <webElementGuid>5d9c594a-149d-4301-aa83-c536fc987b68</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-c3dd8d36fe59fe63b9427709afba028a</value>
-      <webElementGuid>3dea266d-2184-443c-b658-bae6e041fce1</webElementGuid>
+      <webElementGuid>cf8b6131-ae01-48ba-9156-3245c535fb48</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -99,7 +99,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@data-testid = 'btn-quick-amount-10000']</value>
-      <webElementGuid>2b45e23d-f6e2-4350-9470-290a34ca3b84</webElementGuid>
+      <webElementGuid>3d15d0d7-a9a9-4769-9b8a-8762940ac861</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,7 +107,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@data-testid = 'btn-quick-amount-10000']</value>
-      <webElementGuid>97e5a09c-85a6-47c0-b063-27d0dc2cf2f7</webElementGuid>
+      <webElementGuid>d95322e3-b3c4-433e-aa6c-918988415a7a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,6 +115,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Rp 10.000' or . = 'Rp 10.000')]</value>
-      <webElementGuid>c6eae6ee-3857-4fef-8842-0ddbb65ce3ed</webElementGuid>
+      <webElementGuid>5ed6cbac-b2fd-4ad4-a163-176052f548e2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

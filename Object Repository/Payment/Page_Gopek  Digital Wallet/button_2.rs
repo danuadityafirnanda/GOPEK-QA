@@ -6,16 +6,16 @@
    <elementGuidId>3387534b-297f-4006-a228-8fbe338b4103</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'button' and (text() = '2' or . = '2')]</value>
+         <key>CSS</key>
+         <value>[data-testid=&quot;btn-pin-digit-2&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//*[@data-testid = 'btn-pin-digit-2']</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>[data-testid=&quot;btn-pin-digit-2&quot;]</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = '2' or . = '2')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ed31e911-4df4-4d59-a759-6b9b5ee8d59a</webElementGuid>
+      <webElementGuid>91d30292-85f4-4953-b5dd-10a1eeabcc3c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +35,7 @@
       <name>data-slot</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>3e0d6166-fee6-43d5-9d8b-b5962fdc4d3c</webElementGuid>
+      <webElementGuid>052c42c9-1efb-4f0b-aa90-f0d13654e490</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,7 +43,7 @@
       <name>data-variant</name>
       <type>Main</type>
       <value>outline</value>
-      <webElementGuid>e83c699e-fb4d-494b-85d9-b71335e9bea9</webElementGuid>
+      <webElementGuid>206e8d95-5a2d-4a9f-b9ab-d656fa8f9d04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,7 +51,7 @@
       <name>data-size</name>
       <type>Main</type>
       <value>lg</value>
-      <webElementGuid>45561a72-5d03-44ad-8e90-074e91e64ad3</webElementGuid>
+      <webElementGuid>daddb70f-ba66-40ec-b420-d81ccf617636</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +59,7 @@
       <name>class</name>
       <type>Main</type>
       <value>group/button inline-flex shrink-0 cursor-pointer items-center justify-center rounded-md border bg-clip-padding whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 gap-1.5 px-4 has-data-[icon=inline-end]:pr-3 has-data-[icon=inline-start]:pl-3 h-20 text-2xl font-semibold</value>
-      <webElementGuid>17a4a3a2-4f1e-4b83-95ba-6bd6b502ddae</webElementGuid>
+      <webElementGuid>95bf4dd7-fead-4c4a-a957-b3e6a8e4daa5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -67,7 +67,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>adcfe9d7-7d43-46c3-a618-9ab6269c868e</webElementGuid>
+      <webElementGuid>a6a49cd3-21bb-4880-a09e-04b168a8fb17</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -75,7 +75,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>btn-pin-digit-2</value>
-      <webElementGuid>d76e23b7-acef-4e3e-b992-670d1e9a1643</webElementGuid>
+      <webElementGuid>b271f934-73eb-448a-a58b-8d89cb28e947</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -83,7 +83,7 @@
       <name>text</name>
       <type>Main</type>
       <value>2</value>
-      <webElementGuid>ae06f2c7-e8ed-4977-abc2-156f2a284ec0</webElementGuid>
+      <webElementGuid>c0a3b10f-d33d-461a-b0a0-31b83e35d287</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-8c2d590cd1cf2a82f9de96634bff4566</value>
-      <webElementGuid>052f820d-d6ab-4ce4-8400-20b909a19711</webElementGuid>
+      <webElementGuid>ba7aa89f-d151-43af-9502-ebc97f874c69</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -99,7 +99,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@data-testid = 'btn-pin-digit-2']</value>
-      <webElementGuid>b9614a50-88f8-4239-b694-2666e65f97dd</webElementGuid>
+      <webElementGuid>2e372361-4b2c-4e3d-a3a9-1310d4fb1b22</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,7 +107,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@data-testid = 'btn-pin-digit-2']</value>
-      <webElementGuid>ac5e3f8f-eaa2-4cf7-bdbc-3719ebffeeec</webElementGuid>
+      <webElementGuid>0a5cbaeb-b7b0-4547-b9f8-e2d5808b8b1c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,6 +115,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = '2' or . = '2')]</value>
-      <webElementGuid>1dc68b89-f42f-4db5-ae96-4abf67af2986</webElementGuid>
+      <webElementGuid>e4a874f2-d790-46f0-a51e-b918bedc94a9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

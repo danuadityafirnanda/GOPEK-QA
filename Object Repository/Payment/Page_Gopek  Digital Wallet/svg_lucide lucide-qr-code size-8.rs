@@ -6,16 +6,16 @@
    <elementGuidId>1d4f71db-c3c7-4cc4-9f27-e7a744ad0719</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' lucide-qr-code ')]</value>
+         <key>CSS</key>
+         <value>.lucide-qr-code</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' lucide-qr-code ')]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>.lucide-qr-code</value>
+         <key>BASIC</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' lucide-qr-code ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>svg</value>
-      <webElementGuid>797f85f3-0be0-487b-bc2e-1812084c1698</webElementGuid>
+      <webElementGuid>3259d685-1e90-4887-99ce-225bcc0645b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +35,7 @@
       <name>xmlns</name>
       <type>Main</type>
       <value>http://www.w3.org/2000/svg</value>
-      <webElementGuid>4b929827-6123-47fe-bdb3-d38fc0161162</webElementGuid>
+      <webElementGuid>4e4c2449-f4d5-4817-a517-a3caba54f18f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,7 +43,7 @@
       <name>width</name>
       <type>Main</type>
       <value>24</value>
-      <webElementGuid>f01ccbf7-89e8-415b-a5c2-4d7f227846e1</webElementGuid>
+      <webElementGuid>9395c4ba-4715-4866-a9f1-8f3ec791aa19</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,7 +51,7 @@
       <name>height</name>
       <type>Main</type>
       <value>24</value>
-      <webElementGuid>14f6118f-05aa-43ea-a10a-105ffd3e533f</webElementGuid>
+      <webElementGuid>ab3ef827-6e30-49c0-889e-c8309cc88c85</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +59,7 @@
       <name>viewBox</name>
       <type>Main</type>
       <value>0 0 24 24</value>
-      <webElementGuid>71509ab9-4fda-4e0a-a29e-883ea6c0554b</webElementGuid>
+      <webElementGuid>42eec241-5d8f-4737-9e94-5957b552bbc7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -67,7 +67,7 @@
       <name>fill</name>
       <type>Main</type>
       <value>none</value>
-      <webElementGuid>2b6bdb01-3510-4cfe-a466-3d7a957daea4</webElementGuid>
+      <webElementGuid>8e35dff0-9ea5-48a7-94d4-1dd62782bece</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -75,7 +75,7 @@
       <name>stroke</name>
       <type>Main</type>
       <value>currentColor</value>
-      <webElementGuid>d3175dc4-0625-40f7-af0b-7d9c3794f2dd</webElementGuid>
+      <webElementGuid>0f4b7599-bd55-4326-9a08-881b0b311c68</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -83,7 +83,7 @@
       <name>stroke-width</name>
       <type>Main</type>
       <value>2</value>
-      <webElementGuid>c4930df3-0a70-43c7-b479-8c1d7b6eee51</webElementGuid>
+      <webElementGuid>afa54f92-bfde-47ca-81e3-dd11091389bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <name>stroke-linecap</name>
       <type>Main</type>
       <value>round</value>
-      <webElementGuid>4ece63ae-97fc-4bad-86d7-eb49b56347da</webElementGuid>
+      <webElementGuid>300ed355-e941-4d57-9f20-9bb6be00cb9e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -99,7 +99,7 @@
       <name>stroke-linejoin</name>
       <type>Main</type>
       <value>round</value>
-      <webElementGuid>9490f268-6241-4655-8d41-bda630c104ff</webElementGuid>
+      <webElementGuid>b57e2e01-fd61-454b-bd56-ef84e3e2cfce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -107,7 +107,7 @@
       <name>class</name>
       <type>Main</type>
       <value>lucide lucide-qr-code size-8</value>
-      <webElementGuid>056cd884-eca5-4d74-bd7b-14c4f46e4e8f</webElementGuid>
+      <webElementGuid>6d98484f-0dcb-4836-81a0-96083d6a9d37</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -115,7 +115,7 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>d8630ca4-14e6-42f8-8b60-ceeffc4d4dc1</webElementGuid>
+      <webElementGuid>1d8bf340-b2b5-43b7-aafb-c4b215f65ce7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -123,7 +123,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-5924ef1e1a8d7934b4627a6cc981e4d9</value>
-      <webElementGuid>37e00368-8635-4acb-9980-8f0ae032e4d4</webElementGuid>
+      <webElementGuid>26325a9f-5e5e-45cd-9c04-9036e8564707</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -131,7 +131,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' lucide-qr-code ')]</value>
-      <webElementGuid>5fe48811-8982-48fb-ab79-e7da371f2548</webElementGuid>
+      <webElementGuid>db824724-1426-4ed6-9663-299f97d8a935</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -139,6 +139,6 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' lucide-qr-code ')]</value>
-      <webElementGuid>2b9aa52c-6deb-461d-b642-832a2c080cce</webElementGuid>
+      <webElementGuid>2a158916-629a-4531-add0-fc6afa83d224</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

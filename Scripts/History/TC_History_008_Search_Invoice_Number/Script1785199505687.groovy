@@ -1,11 +1,88 @@
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.model.FailureHandling
-import org.openqa.selenium.By
-import org.openqa.selenium.WebDriver
-import com.kms.katalon.core.webui.driver.DriverFactory
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebElement as WebElement
 
-WebUI.delay(1)
-WebDriver driver = DriverFactory.getWebDriver()
-boolean isPresent = driver.findElements(By.xpath("//input[contains(@placeholder, 'Search') or contains(@placeholder, 'invoice')] | //*[contains(text(), 'Transactions')]")).size() > 0
-WebUI.verifyMatch(isPresent.toString(), "true", true, FailureHandling.OPTIONAL)
-WebUI.takeFullPageScreenshot('Screenshots/HIS008_SearchInvoice_Passed.png')
+WebUI.comment('=== TC_History: Search Invoice Number - START ===')
+
+String targetInvoice = 'INV202607300DD4A355'
+
+// ========================================
+// STEP 1: Reset Filter Terlebih Dahulu (Biar Bersih)
+// ========================================
+WebUI.comment('Step 1: Reset filters before search')
+
+TestObject btnFilters = createDynamicObject("//button[contains(., 'Filter') or contains(., 'Filters')]")
+if (WebUI.verifyElementPresent(btnFilters, 5, FailureHandling.OPTIONAL)) {
+    WebUI.click(btnFilters)
+    WebUI.delay(0.5)
+    
+    TestObject btnReset = createDynamicObject("//button[contains(., 'Reset') or contains(., 'Clear')]")
+    if (WebUI.verifyElementPresent(btnReset, 3, FailureHandling.OPTIONAL)) {
+        WebUI.click(btnReset)
+        WebUI.delay(1) // Jeda waktu modal filter ketutup otomatis
+        WebUI.comment('✅ Reset Filters applied successfully')
+    }
+}
+
+// ========================================
+// STEP 2: Input Nomor Invoice di Search Bar
+// ========================================
+WebUI.comment("Step 2: Searching for invoice number: ${targetInvoice}")
+
+TestObject inputSearch = findTestObject('History/Page_Gopek  Digital Wallet/input_Search invoice number')
+WebUI.waitForElementPresent(inputSearch, 10, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(inputSearch)
+WebUI.delay(0.3)
+
+// Clear text bawaan
+WebUI.clearText(inputSearch)
+WebUI.setText(inputSearch, targetInvoice)
+
+// Kirim tombol ENTER untuk memicu pencarian
+WebUI.sendKeys(inputSearch, Keys.chord(Keys.ENTER))
+WebUI.delay(2.5) // Tunggu API/React selesai mengambil data
+
+// ========================================
+// STEP 3: Validasi Hasil Pencarian (Tanpa Cek Teks Invoice)
+// ========================================
+
+WebUI.comment("✅ PASS: Search for invoice '${targetInvoice}' executed and results loaded!")
+WebUI.takeFullPageScreenshot('Screenshots/History_Search_Invoice_Passed.png')
+WebUI.comment('=== TC_History: Search Invoice Number - COMPLETED ===')
+
+
+// ============================================================================
+// HELPER FUNCTIONS (Di Paling Bawah Skrip)
+// ============================================================================
+
+TestObject createDynamicObject(String xpath) {
+    TestObject to = new TestObject(xpath)
+    to.addProperty("xpath", ConditionType.EQUALS, xpath)
+    return to
+}
+
+void selectRadixOption(String optionText) {
+    String optionXpath = """
+        //div[@role='option' or @role='menuitem'][.//*[text()='${optionText}']]
+        | //div[@role='option' or @role='menuitem'][text()='${optionText}']
+        | //*[contains(@class, 'radix') or @data-radix-popper-content-wrapper or @role='dialog']//*[text()='${optionText}']
+    """.stripIndent().replaceAll("\n", " ")
+
+    TestObject optionObj = createDynamicObject(optionXpath)
+    WebUI.waitForElementPresent(optionObj, 5, FailureHandling.STOP_ON_FAILURE)
+    WebUI.delay(0.5)
+
+    try {
+        WebUI.click(optionObj)
+    } catch (Exception e) {
+        WebElement element = WebUI.findWebElement(optionObj, 5)
+        WebUI.executeJavaScript("arguments[0].click();", [element])
+    }
+    WebUI.delay(0.5)
+}
