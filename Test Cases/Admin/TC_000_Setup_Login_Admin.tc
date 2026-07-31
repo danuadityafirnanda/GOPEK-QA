@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Setup test case: Login as admin user for fraud detection and audit trail testing</description>
+   <name>TC_000_Setup_Login_Admin</name>
+   <tag>Admin,Setup,Smoke Test</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f1a2b3c4-d5e6-4f7a-8b9c-0d1e2f3a4b5c</testCaseGuid>
+</TestCaseEntity>

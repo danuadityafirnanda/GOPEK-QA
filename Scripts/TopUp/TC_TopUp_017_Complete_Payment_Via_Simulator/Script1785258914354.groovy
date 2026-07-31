@@ -21,31 +21,38 @@ import org.openqa.selenium.Keys as Keys
 // ========================================
 // PREREQUISITE: Browser is already open and user is logged in
 // ========================================
-
 WebUI.comment('=== E2E TEST: COMPLETE TOP-UP WITH PAYMENT SIMULATOR ===')
+
 WebUI.comment('TC_TopUp_017: Complete Payment Via Simulator - START')
+
 WebUI.comment('Assuming browser is open and user is logged in from setup')
 
 // ========================================
 // STEP 1: Navigate to home and capture initial balance
 // ========================================
 WebUI.navigateToUrl(GlobalVariable.BASE_URL + '/home')
+
 WebUI.waitForPageLoad(10)
+
 WebUI.delay(1)
 
 String currentUrl = WebUI.getUrl()
+
 assert currentUrl.contains('/home') : 'Should be on home page'
 
 WebUI.takeFullPageScreenshot('Screenshots/TOPUP017_01_HomePageAfterLogin.png')
 
 // Capture initial balance for comparison later
 String initialBalance = ''
+
 try {
     initialBalance = WebUI.getText(findTestObject('Home/text_wallet_balance'))
+
     WebUI.comment('Initial balance: ' + initialBalance)
-} catch (Exception e) {
-    WebUI.comment('Could not retrieve initial balance - will verify later')
 }
+catch (Exception e) {
+    WebUI.comment('Could not retrieve initial balance - will verify later')
+} 
 
 WebUI.comment('=== PHASE 1: CREATE TOP-UP TRANSACTION ===')
 
@@ -109,8 +116,10 @@ WebUI.takeFullPageScreenshot('Screenshots/TOPUP017_05_VANumber_Captured.png')
 
 // Extract transaction ID from URL for tracking
 String transactionId = ''
+
 if (currentUrl.contains('tx=')) {
-    transactionId = currentUrl.split('tx=')[1].split('&')[0]
+    transactionId = ((currentUrl.split('tx=')[1]).split('&')[0])
+
     WebUI.comment('Transaction ID: ' + transactionId)
 }
 
@@ -131,56 +140,88 @@ WebUI.comment('Navigated to payment simulator: https://mocking-app.vercel.app/si
 // Simulator has 2 separate forms: Backend URL + VA Number
 // Backend URL must be set to https://gopek.live (NOT localhost:8081)
 TestObject simulatorBackendUrlInput = new TestObject('simulator_backend_url_input')
+
 simulatorBackendUrlInput.addProperty('css', ConditionType.EQUALS, 'input#backend-url')
 
 try {
     WebUI.waitForElementPresent(simulatorBackendUrlInput, 10)
-    WebUI.click(simulatorBackendUrlInput) // Focus field
+
+    WebUI.click(simulatorBackendUrlInput // Focus field
+        )
+
     WebUI.delay(0.3)
-    WebUI.clearText(simulatorBackendUrlInput) // Clear default localhost:8081
+
+    WebUI.clearText(simulatorBackendUrlInput // Clear default localhost:8081
+        )
+
     WebUI.setText(simulatorBackendUrlInput, 'https://gopek.live')
+
     WebUI.comment('Backend URL entered in simulator: https://gopek.live')
+
     WebUI.delay(0.5)
+
     WebUI.takeFullPageScreenshot('Screenshots/TOPUP017_07_BackendURL_Entered.png')
-} catch (Exception e) {
-    WebUI.comment('ERROR: Could not find Backend URL field (id="backend-url") in simulator')
-    WebUI.takeFullPageScreenshot('Screenshots/TOPUP017_07_BackendURL_NotFound.png')
 }
+catch (Exception e) {
+    WebUI.comment('ERROR: Could not find Backend URL field (id="backend-url") in simulator')
+
+    WebUI.takeFullPageScreenshot('Screenshots/TOPUP017_07_BackendURL_NotFound.png')
+} 
 
 // Step 10: Enter VA number in simulator (SECOND FORM)
 // Use specific ID selector from SimulatorForm.tsx: input#va-number
 TestObject simulatorVAInput = new TestObject('simulator_va_input')
+
 simulatorVAInput.addProperty('css', ConditionType.EQUALS, 'input#va-number')
 
 try {
     WebUI.waitForElementPresent(simulatorVAInput, 10)
-    WebUI.click(simulatorVAInput) // Focus field
+
+    WebUI.click(simulatorVAInput // Focus field
+        )
+
     WebUI.delay(0.3)
+
     WebUI.setText(simulatorVAInput, vaNumber)
+
     WebUI.comment('VA number entered in simulator: ' + vaNumber)
+
     WebUI.delay(0.5)
+
     WebUI.takeFullPageScreenshot('Screenshots/TOPUP017_08_VANumber_Entered.png')
-} catch (Exception e) {
-    WebUI.comment('ERROR: Could not find VA Number field (id="va-number") in simulator')
-    WebUI.takeFullPageScreenshot('Screenshots/TOPUP017_08_VANumber_NotFound.png')
 }
+catch (Exception e) {
+    WebUI.comment('ERROR: Could not find VA Number field (id="va-number") in simulator')
+
+    WebUI.takeFullPageScreenshot('Screenshots/TOPUP017_08_VANumber_NotFound.png')
+} 
 
 // Step 11: Click Submit button in simulator
 // Button text: "Simulasikan Pembayaran" (from SimulatorForm.tsx)
 TestObject simulatorPayButton = new TestObject('simulator_pay_button')
+
 simulatorPayButton.addProperty('css', ConditionType.EQUALS, 'button[type="submit"]')
 
 try {
     WebUI.waitForElementPresent(simulatorPayButton, 10)
-    WebUI.delay(0.5) // Safety margin before clicking
+
+    WebUI.delay(0.5 // Safety margin before clicking
+        )
+
     WebUI.click(simulatorPayButton)
+
     WebUI.comment('Submit button clicked - payment simulation processing')
-    WebUI.delay(3) // Wait for API call to backend + response
+
+    WebUI.delay(3 // Wait for API call to backend + response
+        )
+
     WebUI.takeFullPageScreenshot('Screenshots/TOPUP017_09_Payment_Submitted.png')
-} catch (Exception e) {
-    WebUI.comment('ERROR: Could not find Submit button (button[type="submit"]) in simulator')
-    WebUI.takeFullPageScreenshot('Screenshots/TOPUP017_09_SubmitButton_NotFound.png')
 }
+catch (Exception e) {
+    WebUI.comment('ERROR: Could not find Submit button (button[type="submit"]) in simulator')
+
+    WebUI.takeFullPageScreenshot('Screenshots/TOPUP017_09_SubmitButton_NotFound.png')
+} 
 
 WebUI.comment('=== PHASE 3: VERIFY PAYMENT SUCCESS ===')
 
@@ -189,37 +230,45 @@ WebUI.navigateToUrl(GlobalVariable.BASE_URL + '/home')
 
 WebUI.waitForPageLoad(10)
 
-WebUI.delay(3)
+WebUI.delay(10)
 
 WebUI.takeFullPageScreenshot('Screenshots/TOPUP017_09_HomeAfterPayment.png')
 
 // Step 13: Verify balance increased
 try {
     String finalBalance = WebUI.getText(findTestObject('Home/text_wallet_balance'))
+
     WebUI.comment('Final balance: ' + finalBalance)
-    
+
     if (initialBalance.length() > 0) {
-        WebUI.comment('Balance comparison - Initial: ' + initialBalance + ', Final: ' + finalBalance)
-        assert !finalBalance.equals(initialBalance) : 'Balance should have increased after payment'
+        WebUI.comment((('Balance comparison - Initial: ' + initialBalance) + ', Final: ') + finalBalance)
+
+        assert !(finalBalance.equals(initialBalance)) : 'Balance should have increased after payment'
     }
     
     WebUI.takeFullPageScreenshot('Screenshots/TOPUP017_10_Balance_Increased.png')
-} catch (Exception e) {
-    WebUI.comment('Could not verify balance change - manual verification required')
 }
+catch (Exception e) {
+    WebUI.comment('Could not verify balance change - manual verification required')
+} 
 
 // Step 14: Optionally verify transaction status (if transaction detail page exists)
 if (transactionId.length() > 0) {
     try {
         // Navigate to transactions page to verify status
         WebUI.navigateToUrl(GlobalVariable.BASE_URL + '/transactions')
+
         WebUI.waitForPageLoad(10)
+
         WebUI.delay(2)
+
         WebUI.takeFullPageScreenshot('Screenshots/TOPUP017_11_TransactionsPage.png')
-        WebUI.comment('Transactions page loaded - verify transaction ' + transactionId + ' is SUCCESS')
-    } catch (Exception e) {
-        WebUI.comment('Could not navigate to transactions page')
+
+        WebUI.comment(('Transactions page loaded - verify transaction ' + transactionId) + ' is SUCCESS')
     }
+    catch (Exception e) {
+        WebUI.comment('Could not navigate to transactions page')
+    } 
 }
 
 // ========================================
@@ -228,10 +277,16 @@ if (transactionId.length() > 0) {
 WebUI.comment('Returning to home page for next test case')
 
 WebUI.navigateToUrl(GlobalVariable.BASE_URL + '/home')
+
 WebUI.waitForPageLoad(10)
+
 WebUI.delay(1)
 
 WebUI.comment('TC_TopUp_017: Complete Payment Via Simulator - COMPLETED')
+
 WebUI.comment('✅ Browser remains open for next test case')
+
 WebUI.comment('TEST PASSED: E2E Top-Up with Payment Simulator completed - Amount Rp 50.000')
+
 WebUI.comment('NOTE: Simulator page selectors may need adjustment based on actual page structure')
+

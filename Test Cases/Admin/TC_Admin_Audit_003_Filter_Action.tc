@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test audit trail filter by action type (CREATE, UPDATE, DELETE, LOGIN, etc.)</description>
+   <name>TC_Admin_Audit_003_Filter_Action</name>
+   <tag>Admin,Audit Trail,Filter Test,Positive Test</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d0e1f2a3-b4c5-4d6e-7f8a-9b0c1d2e3f4a</testCaseGuid>
+</TestCaseEntity>

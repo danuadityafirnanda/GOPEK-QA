@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test audit trail filter by API endpoint to track specific API usage</description>
+   <name>TC_Admin_Audit_005_Filter_Endpoint</name>
+   <tag>Admin,Audit Trail,Filter Test,Positive Test</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b6c</testCaseGuid>
+</TestCaseEntity>

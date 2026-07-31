@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test fraud detection with multiple filters applied simultaneously to verify combined filtering logic</description>
+   <name>TC_Admin_Fraud_007_Multi_Filter</name>
+   <tag>Complex Test,Admin,Positive Test,Filter Test,Fraud Detection</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d</testCaseGuid>
+</TestCaseEntity>

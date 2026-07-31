@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test audit trail filter by module (Authentication, Transfer, Wallet, etc.)</description>
+   <name>TC_Admin_Audit_002_Filter_Module</name>
+   <tag>Admin,Audit Trail,Filter Test,Positive Test</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c9d0e1f2-a3b4-4c5d-6e7f-8a9b0c1d2e3f</testCaseGuid>
+</TestCaseEntity>

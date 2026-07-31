@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test audit trail filter by date range to view audit logs within specific period</description>
+   <name>TC_Admin_Audit_004_Filter_Date_Range</name>
+   <tag>Admin,Audit Trail,Filter Test,Positive Test</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b</testCaseGuid>
+</TestCaseEntity>

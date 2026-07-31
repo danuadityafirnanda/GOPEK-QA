@@ -67,4 +67,18 @@
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Admin user email</description>
+      <initValue>'admin@test.com'</initValue>
+      <name>ADMIN_EMAIL</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Admin user password</description>
+      <initValue>'12345678'</initValue>
+      <name>ADMIN_PASSWORD</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

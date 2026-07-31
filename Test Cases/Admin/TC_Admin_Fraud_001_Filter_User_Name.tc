@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test fraud detection filter by user name to verify transaction filtering functionality</description>
+   <name>TC_Admin_Fraud_001_Filter_User_Name</name>
+   <tag>Admin,Positive Test,Filter Test,Fraud Detection</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d</testCaseGuid>
+</TestCaseEntity>
