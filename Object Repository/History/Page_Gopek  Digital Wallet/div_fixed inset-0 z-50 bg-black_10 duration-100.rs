@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_fixed inset-0 z-50 bg-black_10 duration-100</name>
+   <tag></tag>
+   <elementGuidId>cb9d868a-02a6-4fb6-943a-5c8ab4e92fe0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' supports-backdrop-filter:backdrop-blur-xs ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.supports-backdrop-filter\:backdrop-blur-xs</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' supports-backdrop-filter:backdrop-blur-xs ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>114238b2-bf0d-438b-aafd-34b51d54bed3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-state</name>
+      <type>Main</type>
+      <value>open</value>
+      <webElementGuid>52ff68c7-b552-4067-bbba-8bdfd9ecc34d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-slot</name>
+      <type>Main</type>
+      <value>sheet-overlay</value>
+      <webElementGuid>b47113d9-9059-49a6-b023-cd70704ba725</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fixed inset-0 z-50 bg-black/10 duration-100 supports-backdrop-filter:backdrop-blur-xs data-open:animate-in data-open:fade-in-0 data-closed:animate-out data-closed:fade-out-0</value>
+      <webElementGuid>a91ae0b3-e4bd-4a5c-b467-a8e10c133754</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>380a4421-2c51-4961-9052-55fd8e349ed7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>5ce72d4c-93e7-4754-99c8-68f87c9f1345</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-2e02b648cf4d882579216aa82d935e99</value>
+      <webElementGuid>6e496c96-c8ef-427f-8989-0513acff1661</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' supports-backdrop-filter:backdrop-blur-xs ')]</value>
+      <webElementGuid>9a957db5-0dcf-425e-b909-79d636abc6a8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' supports-backdrop-filter:backdrop-blur-xs ')]</value>
+      <webElementGuid>8a45399b-24ec-44a3-9ca4-69dd39081ee5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

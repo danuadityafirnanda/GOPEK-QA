@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Filters</name>
+   <name>button_Pick a date range</name>
    <tag></tag>
-   <elementGuidId>2d9c4bdc-d64f-4071-8313-7f5fc49a22ed</elementGuidId>
+   <elementGuidId>9c27a31f-71a6-4683-9ed9-e380091ef906</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>[data-state=&quot;closed&quot;]</value>
+         <value>.text-sm.\[\&amp;_svg\]\:pointer-events-none.justify-start</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@data-state = 'closed']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'button' and (text() = 'Filters' or . = 'Filters')]</value>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' text-sm ') and contains(concat(' ', normalize-space(@class), ' '), ' [&amp;_svg]:pointer-events-none ') and contains(concat(' ', normalize-space(@class), ' '), ' justify-start ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,15 +23,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>80867a8a-3322-4078-84f9-40048df95750</webElementGuid>
+      <webElementGuid>8b0197c3-2d87-4672-8ce2-6404c790fd85</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-slot</name>
       <type>Main</type>
-      <value>sheet-trigger</value>
-      <webElementGuid>1e76d84c-fdcb-40b7-8d79-5bef915a3ceb</webElementGuid>
+      <value>popover-trigger</value>
+      <webElementGuid>7342d923-47da-468b-947a-7ea7db07bbd2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,7 +39,7 @@
       <name>data-variant</name>
       <type>Main</type>
       <value>outline</value>
-      <webElementGuid>85006327-bfa1-4bef-97d9-7decea72be62</webElementGuid>
+      <webElementGuid>45ac1a97-3268-42b8-ae57-9a0f0e8832c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,15 +47,15 @@
       <name>data-size</name>
       <type>Main</type>
       <value>default</value>
-      <webElementGuid>28c74b22-d9b9-422d-a5bb-03b7408d364b</webElementGuid>
+      <webElementGuid>8e6efe11-650c-427a-bcc3-eaacca65be72</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>group/button inline-flex cursor-pointer items-center justify-center rounded-md border bg-clip-padding text-sm font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-10 px-3 has-data-[icon=inline-end]:pr-2.5 has-data-[icon=inline-start]:pl-2.5 gap-1.5 shrink-0</value>
-      <webElementGuid>77267ba7-8ca6-4205-ab0a-0c7cea21042d</webElementGuid>
+      <value>group/button inline-flex shrink-0 cursor-pointer items-center rounded-md border bg-clip-padding whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 gap-1.5 has-data-[icon=inline-end]:pr-2.5 has-data-[icon=inline-start]:pl-2.5 w-full justify-start px-2.5 font-normal h-9 text-sm</value>
+      <webElementGuid>cd5d7932-9830-498b-9921-0b0fe57e135e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -67,7 +63,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>19e6d0ff-cc8f-4268-a415-c2ccd67f7eaf</webElementGuid>
+      <webElementGuid>4b6ec948-9834-4a1d-b371-b61ef798685b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -75,7 +71,7 @@
       <name>aria-haspopup</name>
       <type>Main</type>
       <value>dialog</value>
-      <webElementGuid>31f59855-8c31-4189-a9c1-ef333af40cb6</webElementGuid>
+      <webElementGuid>f7a6e5e1-9caf-4194-a4f1-637b4ae1c865</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -83,7 +79,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>30005166-92ac-4152-b98c-bcde20628da5</webElementGuid>
+      <webElementGuid>a023133f-3232-48c1-af5e-e55da011fe61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -91,46 +87,46 @@
       <name>data-state</name>
       <type>Main</type>
       <value>closed</value>
-      <webElementGuid>2845f1ef-c3c4-4488-a5dd-ee2b9c3bddbe</webElementGuid>
+      <webElementGuid>80cddf19-c1d9-4d53-b268-040eafd31cdd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Filters</value>
-      <webElementGuid>c6b522ff-075f-472f-9d54-c720d2fa924b</webElementGuid>
+      <value>Pick a date range</value>
+      <webElementGuid>9ddb632b-1699-4b0f-8a14-1dafc73cc1e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-84eeccf1ea554368fc0ad3da929e66e3</value>
-      <webElementGuid>3f5d71ee-bfbe-4c2a-800e-5d55821eff64</webElementGuid>
+      <value>md5.v1-f9751815dff124e24e4c9f3b9990e407</value>
+      <webElementGuid>a40e6b48-0c44-4930-beda-30354afdae28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@data-state = 'closed']</value>
-      <webElementGuid>891d6634-adc4-4d89-92cc-d2ce333b5cc7</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' text-sm ') and contains(concat(' ', normalize-space(@class), ' '), ' [&amp;_svg]:pointer-events-none ') and contains(concat(' ', normalize-space(@class), ' '), ' justify-start ')]</value>
+      <webElementGuid>b4d083e6-c37e-463e-947f-34084cd3babf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@data-state = 'closed']</value>
-      <webElementGuid>53a33e6e-e466-46e1-a9d8-655c4c24ca39</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' text-sm ') and contains(concat(' ', normalize-space(@class), ' '), ' [&amp;_svg]:pointer-events-none ') and contains(concat(' ', normalize-space(@class), ' '), ' justify-start ')]</value>
+      <webElementGuid>92380fdb-0d4e-4124-ab50-09f5b65a8517</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Filters' or . = 'Filters')]</value>
-      <webElementGuid>d68a6930-5cfd-473b-a457-5b1e1790b91f</webElementGuid>
+      <value>//button[@type = 'button' and (text() = 'Pick a date range' or . = 'Pick a date range')]</value>
+      <webElementGuid>5ae7e5a8-e2dd-4118-9917-8dffc61ce5b9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

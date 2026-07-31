@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_Pay_005_Neg_Custom_Amount_Zero_Or_Empty</name>
+   <name>TC_Pay_004_Pos_Input_Preset_Amount_2</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>7f2239cf-682c-4134-a1fd-d75bab3471cd</testCaseGuid>
+   <testCaseGuid>3b7bc755-93c6-4fbc-8b51-1765014eab1d</testCaseGuid>
 </TestCaseEntity>

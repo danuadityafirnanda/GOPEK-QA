@@ -6,16 +6,16 @@
    <elementGuidId>825ff061-7f3c-4fb3-b278-e06063eb27a1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'button' and (text() = 'Continue' or . = 'Continue')]</value>
+         <key>CSS</key>
+         <value>[data-testid=&quot;btn-continue-payment-to-pin&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//*[@data-testid = 'btn-continue-payment-to-pin']</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>[data-testid=&quot;btn-continue-payment-to-pin&quot;]</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'Continue' or . = 'Continue')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f7b6bc38-45f9-4efa-99bf-aceb4a63b56a</webElementGuid>
+      <webElementGuid>fcf8f7d3-0847-46e2-a4f9-90f44b4c1b68</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +35,7 @@
       <name>data-slot</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ef54dc12-590a-4e73-ad1a-76da41ba23e3</webElementGuid>
+      <webElementGuid>6063d2ea-366b-40f2-b71f-9ec020adc953</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,7 +43,7 @@
       <name>data-variant</name>
       <type>Main</type>
       <value>default</value>
-      <webElementGuid>585390d0-817b-4b36-87a6-8743d75a8614</webElementGuid>
+      <webElementGuid>aac9cabd-585e-4a43-82dd-ac5e08468452</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,7 +51,7 @@
       <name>data-size</name>
       <type>Main</type>
       <value>lg</value>
-      <webElementGuid>67dc3b28-0a9f-49e5-a9fa-6d62eb649a08</webElementGuid>
+      <webElementGuid>05a4c36b-704a-49d4-ac2d-50b7884a8c3f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +59,7 @@
       <name>class</name>
       <type>Main</type>
       <value>group/button inline-flex cursor-pointer items-center justify-center rounded-md border border-transparent bg-clip-padding text-sm font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 bg-primary text-primary-foreground hover:bg-primary/80 h-11 gap-1.5 px-4 has-data-[icon=inline-end]:pr-3 has-data-[icon=inline-start]:pl-3 flex-1</value>
-      <webElementGuid>ff5e3bbf-3c35-494c-a86b-2cec4dab067c</webElementGuid>
+      <webElementGuid>23805f9a-026c-40fb-9cde-3eb348105081</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -67,7 +67,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e445ea30-cf9f-4318-bfc4-85af6e236d6e</webElementGuid>
+      <webElementGuid>82d5896b-2aed-4dfe-8bf7-798e7ee7cee7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -75,7 +75,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>btn-continue-payment-to-pin</value>
-      <webElementGuid>ae7c1d37-ea98-4b83-b596-6bf88a3c6786</webElementGuid>
+      <webElementGuid>e00c09e5-fa40-468c-8131-289ed176a3d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -83,7 +83,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Continue</value>
-      <webElementGuid>090d7a9c-acb1-4c8f-b6c8-0b03f045ffe3</webElementGuid>
+      <webElementGuid>4ec760cc-2f49-4399-aee2-2aba683be354</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-01100ec474b709802ed4d404eea7983c</value>
-      <webElementGuid>2308f9e5-f689-4df4-94e9-c1dc0c8a3faa</webElementGuid>
+      <webElementGuid>0fc8de4c-5528-48ee-bf48-626e5b36a39b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -99,7 +99,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@data-testid = 'btn-continue-payment-to-pin']</value>
-      <webElementGuid>bcaaf4ab-d87c-4a64-8908-b7ebadd9f4b2</webElementGuid>
+      <webElementGuid>81081194-785b-4891-9a18-a0c6250387cb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,7 +107,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@data-testid = 'btn-continue-payment-to-pin']</value>
-      <webElementGuid>5e44b569-288a-4f9d-9509-225ba4d987d2</webElementGuid>
+      <webElementGuid>d80dcf13-ca7e-486b-9624-7e17469dbac4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,6 +115,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Continue' or . = 'Continue')]</value>
-      <webElementGuid>76bbeed8-989e-4f76-8196-6d3be75000bf</webElementGuid>
+      <webElementGuid>e6b9b5a8-1130-486a-ae19-1006358ac9be</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_History_011_Reset_Filter</name>
+   <name>TC_Pay_005_Pos_Input_Preset_Amount_2</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>fbac0adc-2f32-447f-8627-a3a14d5beb43</testCaseGuid>
+   <testCaseGuid>ec50dca8-3ae0-4284-9c67-797080243fe5</testCaseGuid>
 </TestCaseEntity>

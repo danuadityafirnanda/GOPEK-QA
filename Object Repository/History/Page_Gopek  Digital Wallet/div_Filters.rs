@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_See All</name>
+   <name>div_Filters</name>
    <tag></tag>
-   <elementGuidId>277da9dd-701b-42af-b826-68204a981e31</elementGuidId>
+   <elementGuidId>2aadc0a5-c174-444c-96f3-26515a7d8c14</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>[data-testid=&quot;link-see-all-transactions&quot;]</value>
+         <value>[data-slot=&quot;sheet-header&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@data-testid = 'link-see-all-transactions']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@href = '/transactions' and (text() = 'See All' or . = 'See All')]</value>
+         <value>//*[@data-slot = 'sheet-header']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,71 +22,63 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>d9c5ddb2-052b-4d82-b4a7-847a6453d363</webElementGuid>
+      <value>div</value>
+      <webElementGuid>c90cfe67-3bb9-42ff-9074-60f25cb8c506</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-slot</name>
+      <type>Main</type>
+      <value>sheet-header</value>
+      <webElementGuid>015c8b29-291a-49bd-9b55-c29b4add7fcd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>flex items-center gap-1 text-sm text-primary hover:underline</value>
-      <webElementGuid>2f8c0ea4-3347-467c-9a42-7fef8d52acec</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-testid</name>
-      <type>Main</type>
-      <value>link-see-all-transactions</value>
-      <webElementGuid>ab6c8629-bb9e-4523-93d4-30b7fc8ea0a2</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>/transactions</value>
-      <webElementGuid>8904e8c2-ddab-4ebd-bc8b-415c05c74d7b</webElementGuid>
+      <value>flex flex-col gap-0.5 p-4</value>
+      <webElementGuid>6b6a411d-2aa0-4ccb-a70f-ceced57ca58a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>See All</value>
-      <webElementGuid>65d72e39-2198-424c-8d51-a1e63ec5dee0</webElementGuid>
+      <value>Filters</value>
+      <webElementGuid>4de52afa-8bcd-4193-91c5-c7d45e7e7e3a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-f4875502904650c3bed3237a850687db</value>
-      <webElementGuid>dbddcfc8-628a-4dd8-951d-bcf744181d00</webElementGuid>
+      <value>md5.v1-c3cf8d73705bb0dce688c43a6e6fe549</value>
+      <webElementGuid>6fef2c21-f561-4b36-83f0-fd3fe4bfc600</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@data-testid = 'link-see-all-transactions']</value>
-      <webElementGuid>a8123f8b-4b02-48e0-81d2-cae60f72a79c</webElementGuid>
+      <value>//*[@data-slot = 'sheet-header']</value>
+      <webElementGuid>0a0132d6-699f-43fc-a971-4c46034d82e4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@data-testid = 'link-see-all-transactions']</value>
-      <webElementGuid>1180264c-ac08-44eb-8322-9f350577076c</webElementGuid>
+      <value>//*[@data-slot = 'sheet-header']</value>
+      <webElementGuid>6c686532-d1eb-4c09-9e5b-60e5875f7c1e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/transactions' and (text() = 'See All' or . = 'See All')]</value>
-      <webElementGuid>0c88ee10-7244-4967-9f47-afbadfa23f24</webElementGuid>
+      <value>//div[(text() = 'Filters' or . = 'Filters')]</value>
+      <webElementGuid>c17676a9-4ade-4c7f-83a9-0428f50a9d34</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,12 +6,16 @@
    <elementGuidId>a153d35b-4e91-431c-944d-89550fed0737</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>[data-testid=&quot;menu-history&quot;] .rounded-md.bg-muted</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//*[@data-testid = 'menu-history']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and contains(concat(' ', normalize-space(@class), ' '), ' bg-muted ')]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>[data-testid=&quot;menu-history&quot;] .rounded-md.bg-muted</value>
+         <key>BASIC</key>
+         <value>//*[@data-testid = 'menu-history']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and contains(concat(' ', normalize-space(@class), ' '), ' bg-muted ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>ad76f661-a6ee-4189-9908-fcf656bf7f8c</webElementGuid>
+      <webElementGuid>e9b50bc8-fa60-46b5-95d4-2e1310226652</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>flex size-14 items-center justify-center rounded-md bg-muted</value>
-      <webElementGuid>26085b91-2d7d-4e2d-af17-2616584a8a60</webElementGuid>
+      <webElementGuid>1924950e-06ff-40ae-b0f5-fb06c3fb9041</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +43,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-90f68f1993afb9f91390203dccb061a6</value>
-      <webElementGuid>1b9d2b02-44d5-4f7a-adf3-5dc147b59701</webElementGuid>
+      <webElementGuid>1662af96-e4cd-40fa-9952-61364ddc650a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +51,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@data-testid = 'menu-history']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and contains(concat(' ', normalize-space(@class), ' '), ' bg-muted ')]</value>
-      <webElementGuid>2c8af1c9-6742-4a1a-8c77-faee2029daa4</webElementGuid>
+      <webElementGuid>1d77a8a1-4d49-4f5c-a6c8-2829bf788849</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,6 +59,6 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@data-testid = 'menu-history']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and contains(concat(' ', normalize-space(@class), ' '), ' bg-muted ')]</value>
-      <webElementGuid>6953852b-0e83-45ea-b6ba-034f50414863</webElementGuid>
+      <webElementGuid>bd78d98c-e80f-48c8-96ac-49502fbbaad3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
