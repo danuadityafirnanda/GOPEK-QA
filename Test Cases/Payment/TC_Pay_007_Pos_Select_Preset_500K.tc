@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Pay_007_Pos_Select_Preset_500K</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5d6e7f8a-9b0c-4d1e-8f2a-3b4c5d6e7f80</testCaseGuid>
+</TestCaseEntity>

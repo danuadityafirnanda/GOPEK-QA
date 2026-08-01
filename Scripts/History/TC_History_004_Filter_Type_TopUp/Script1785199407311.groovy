@@ -51,6 +51,12 @@ WebUI.delay(0.5)
 selectRadixOption('Top Up')
 WebUI.comment('✅ Selected Type: Top Up')
 
+// VALIDASI KUAT: Opsi terpilih harus tampil di trigger dropdown
+TestObject selectedOptionTrigger = createDynamicObject("//button[@role='combobox' and contains(., 'Top Up')]")
+boolean isSelectedVisible = WebUI.verifyElementPresent(selectedOptionTrigger, 5, FailureHandling.STOP_ON_FAILURE)
+assert isSelectedVisible : "Validation failed: Selected option 'Top Up' not shown in dropdown trigger!"
+
+
 // ========================================
 // STEP 5: Tutup / Silang Modal Filter
 // ========================================
@@ -66,6 +72,10 @@ TestObject transactionsHeader = createDynamicObject("//*[contains(text(), 'Trans
 boolean isTransactionsPresent = WebUI.verifyElementPresent(transactionsHeader, 10, FailureHandling.OPTIONAL)
 
 assert isTransactionsPresent : "Validation failed: Could not find 'Transactions' header or text on the page!"
+// VALIDASI KUAT: List transaksi termuat setelah filter diterapkan
+TestObject showingText = createDynamicObject("//*[contains(text(), 'Showing')]")
+boolean isShowingPresent = WebUI.verifyElementPresent(showingText, 15, FailureHandling.STOP_ON_FAILURE)
+assert isShowingPresent : "Validation failed: Transaction list did not reload after filter!"
 WebUI.comment('✅ PASS: Filter Type Top Up applied successfully')
 
 WebUI.takeFullPageScreenshot('Screenshots/History_Filter_Type_TopUp_Passed.png')

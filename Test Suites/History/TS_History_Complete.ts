@@ -12,63 +12,63 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>8d4581fd-48d9-4bc6-abd0-debb97987160</testSuiteGuid>
    <testCaseLink>
-      <guid>8dfa9332-29e7-4ae5-a680-808ffbc9fc1b</guid>
+      <guid>8adcd7e1-3206-44dd-b47c-16d7fb2d8264</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/History/TC_000_Setup_Login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>139a2101-b6ea-456a-9a1e-772d935b6110</guid>
+      <guid>84da5499-1b89-4a72-9937-612277f9fefc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/History/TC_History_001_Valid_Load_Default</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>89b36cf3-e0aa-4d04-a13e-e84d0f2bf4a7</guid>
+      <guid>81638877-ebf9-4848-ab24-f3818b9e8d12</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/History/TC_History_002_Filter_Direction_CREDIT</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8421a271-f6a4-458c-b3ca-09d09718fd18</guid>
+      <guid>144724b0-f4ad-45cf-9123-c0bda4d51a49</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/History/TC_History_003_Filter_Direction_DEBIT</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d980bcbb-7a15-49a5-bb97-5f1379f36b95</guid>
+      <guid>3cd48270-b946-41e5-bc62-b5409303f06a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/History/TC_History_004_Filter_Type_TopUp</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a027ca82-7e62-4aa9-a30e-e5a65e5f00c5</guid>
+      <guid>53f11918-e9e6-4a1e-ac55-43da2e8e0378</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/History/TC_History_005_Filter_Type_Transfer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>ec635b41-d721-429a-b2e3-1fddae681182</guid>
+      <guid>5c852b1a-7fc6-4c11-82e8-ec985760e18e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/History/TC_History_006_Filter_Type_Withdraw</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a26c99a0-39cb-4d89-b95c-dee0930bfcad</guid>
+      <guid>9477611f-354e-48ae-b383-7e94c85901a0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/History/TC_History_007_Filter_Type_Merchant</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>039f03ed-b282-435a-ba11-2f23cc7f2ae8</guid>
+      <guid>50b1f30f-dbe1-433c-8444-d7f03dae1b3c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/History/TC_History_008_Search_Invoice_Number</testCaseId>

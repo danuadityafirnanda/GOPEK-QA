@@ -44,9 +44,7 @@ assert isMerchantVisible : "Validation failed: Payment amount page not loaded (n
 WebUI.comment('✅ PASS: Payment amount page loaded with merchant card')
 
 
-WebUI.click(findTestObject('Payment/Page_Gopek  Digital Wallet/button_Rp 25.000'))
-
-WebUI.setText(findTestObject('Payment/Page_Gopek  Digital Wallet/textarea_e.g_ beli kopi'), 'beli kopi')
+WebUI.click(findTestObject('Payment/Page_Gopek  Digital Wallet/button_Rp 500.000'))
 
 WebUI.click(findTestObject('Payment/Page_Gopek  Digital Wallet/button_Continue'))
 
@@ -57,12 +55,6 @@ TestObject merchantSummaryCard = createDynamicObject("//*[@data-testid='card-pay
 boolean isSummaryVisible = WebUI.verifyElementPresent(merchantSummaryCard, 15, FailureHandling.STOP_ON_FAILURE)
 assert isSummaryVisible : "Validation failed: Summary page not loaded (no merchant summary card)!"
 WebUI.comment('✅ PASS: Payment summary page loaded')
-
-// VALIDASI KUAT: Catatan (notes) tampil di halaman summary
-TestObject noteText = createDynamicObject("//*[contains(., 'beli kopi')]")
-boolean isNoteVisible = WebUI.verifyElementPresent(noteText, 10, FailureHandling.STOP_ON_FAILURE)
-assert isNoteVisible : "Validation failed: Payment note 'beli kopi' not shown in summary!"
-WebUI.comment('✅ PASS: Payment note displayed in summary')
 
 
 WebUI.click(findTestObject('Payment/Page_Gopek  Digital Wallet/button_Continue_1'))
@@ -111,13 +103,12 @@ WebUI.comment('✅ PASS: Back to Home navigation successful')
 
 
 // ============================================================================
-// HELPER FUNCTIONS (Di Paling Bawah Skrip)
+// HELPER FUNCTIONS
 // ============================================================================
-
 TestObject createDynamicObject(String xpath) {
     TestObject to = new TestObject(xpath)
-    to.addProperty("xpath", ConditionType.EQUALS, xpath)
+
+    to.addProperty('xpath', ConditionType.EQUALS, xpath)
+
     return to
 }
-
-

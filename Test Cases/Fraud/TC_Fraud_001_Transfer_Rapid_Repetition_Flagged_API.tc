@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Fraud_001_Transfer_Rapid_Repetition_Flagged_API</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7c1a2b3d-4e5f-4a6b-8c7d-9e0f1a2b3c4d</testCaseGuid>
+</TestCaseEntity>

@@ -44,9 +44,7 @@ assert isMerchantVisible : "Validation failed: Payment amount page not loaded (n
 WebUI.comment('✅ PASS: Payment amount page loaded with merchant card')
 
 
-WebUI.click(findTestObject('Payment/Page_Gopek  Digital Wallet/button_Rp 25.000'))
-
-WebUI.setText(findTestObject('Payment/Page_Gopek  Digital Wallet/textarea_e.g_ beli kopi'), 'beli kopi')
+WebUI.click(findTestObject('Payment/Page_Gopek  Digital Wallet/button_Rp 50.000'))
 
 WebUI.click(findTestObject('Payment/Page_Gopek  Digital Wallet/button_Continue'))
 
@@ -58,23 +56,40 @@ boolean isSummaryVisible = WebUI.verifyElementPresent(merchantSummaryCard, 15, F
 assert isSummaryVisible : "Validation failed: Summary page not loaded (no merchant summary card)!"
 WebUI.comment('✅ PASS: Payment summary page loaded')
 
-// VALIDASI KUAT: Catatan (notes) tampil di halaman summary
-TestObject noteText = createDynamicObject("//*[contains(., 'beli kopi')]")
-boolean isNoteVisible = WebUI.verifyElementPresent(noteText, 10, FailureHandling.STOP_ON_FAILURE)
-assert isNoteVisible : "Validation failed: Payment note 'beli kopi' not shown in summary!"
-WebUI.comment('✅ PASS: Payment note displayed in summary')
 
-
+// ========================================
+// STEP A: Masuk ke step PIN, lalu klik Back
+// (Memvalidasi tombol Back di halaman PIN)
+// ========================================
 WebUI.click(findTestObject('Payment/Page_Gopek  Digital Wallet/button_Continue_1'))
 
-// ========================================
-// VALIDASI: Step PIN tampil (keypad terlihat)
-// ========================================
 TestObject pinDigit1 = createDynamicObject("//*[@data-testid='btn-pin-digit-1']")
 boolean isPinVisible = WebUI.verifyElementPresent(pinDigit1, 10, FailureHandling.STOP_ON_FAILURE)
 assert isPinVisible : "Validation failed: PIN step not shown!"
-WebUI.comment('✅ PASS: PIN keypad displayed')
+WebUI.comment('✅ PASS: PIN keypad displayed (sebelum klik Back)')
 
+// Klik tombol Back di step PIN
+TestObject btnBackPin = createDynamicObject("//*[@data-testid='btn-back-payment-summary']")
+WebUI.waitForElementPresent(btnBackPin, 10, FailureHandling.STOP_ON_FAILURE)
+WebUI.click(btnBackPin)
+WebUI.delay(1)
+
+// VALIDASI: Kembali ke step Review (kartu merchant summary tampil lagi, keypad PIN hilang)
+boolean isBackAtReview = WebUI.verifyElementPresent(merchantSummaryCard, 10, FailureHandling.STOP_ON_FAILURE)
+assert isBackAtReview : "Validation failed: Did not return to Review step after clicking Back!"
+boolean isPinGone = !WebUI.verifyElementPresent(pinDigit1, 5, FailureHandling.OPTIONAL)
+assert isPinGone : "Validation failed: PIN keypad still visible after clicking Back!"
+WebUI.comment('✅ PASS: Back button returned to Review step (PIN keypad hidden)')
+
+
+// ========================================
+// STEP B: Lanjutkan lagi ke PIN dan selesaikan pembayaran
+// ========================================
+WebUI.click(findTestObject('Payment/Page_Gopek  Digital Wallet/button_Continue_1'))
+
+boolean isPinVisible2 = WebUI.verifyElementPresent(pinDigit1, 10, FailureHandling.STOP_ON_FAILURE)
+assert isPinVisible2 : "Validation failed: PIN step not shown after re-continue!"
+WebUI.comment('✅ PASS: PIN keypad displayed (setelah Back & Continue ulang)')
 
 WebUI.click(findTestObject('Payment/Page_Gopek  Digital Wallet/button_1'))
 
@@ -111,13 +126,12 @@ WebUI.comment('✅ PASS: Back to Home navigation successful')
 
 
 // ============================================================================
-// HELPER FUNCTIONS (Di Paling Bawah Skrip)
+// HELPER FUNCTIONS
 // ============================================================================
-
 TestObject createDynamicObject(String xpath) {
     TestObject to = new TestObject(xpath)
-    to.addProperty("xpath", ConditionType.EQUALS, xpath)
+
+    to.addProperty('xpath', ConditionType.EQUALS, xpath)
+
     return to
 }
-
-

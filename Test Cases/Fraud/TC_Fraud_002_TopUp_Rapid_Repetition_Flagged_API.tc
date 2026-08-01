@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Fraud_002_TopUp_Rapid_Repetition_Flagged_API</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8d2b3c4e-5f6a-4b7c-9d8e-0f1a2b3c4d5e</testCaseGuid>
+</TestCaseEntity>

@@ -49,11 +49,52 @@ WebUI.sendKeys(inputSearch, Keys.chord(Keys.ENTER))
 WebUI.delay(2.5) // Tunggu API/React selesai mengambil data
 
 // ========================================
-// STEP 3: Validasi Hasil Pencarian (Tanpa Cek Teks Invoice)
+// STEP 3: Validasi Hasil Pencarian (Cek Row Transaksi Muncul di List)
+// Catatan: Invoice number TIDAK tampil di list transaksi, hanya di halaman detail.
+// Jadi di list kita cukup pastikan hasil pencarian mengembalikan setidaknya 1 row.
 // ========================================
+WebUI.comment('Step 3: Verify search returned at least one transaction row')
+TestObject firstItem = createDynamicObject("(//a[starts-with(@data-testid, 'transaction-item')])[1]")
+boolean isResultShown = WebUI.verifyElementPresent(firstItem, 15, FailureHandling.STOP_ON_FAILURE)
+assert isResultShown : "Validation failed: No transaction result for invoice '${targetInvoice}'!"
 
-WebUI.comment("✅ PASS: Search for invoice '${targetInvoice}' executed and results loaded!")
+// ========================================
+// STEP 4: Klik Transaksi Pertama -> Masuk Halaman Detail
+// ========================================
+WebUI.comment('Step 4: Open transaction detail page')
+WebUI.click(firstItem)
+WebUI.delay(1)
+
+// ========================================
+// STEP 5: Validasi Invoice Number di Halaman Detail
+// ========================================
+WebUI.comment('Step 5: Verify invoice number on detail page')
+TestObject invoiceLabel = createDynamicObject("//*[contains(text(), 'Invoice ID')]")
+boolean isLabelVisible = WebUI.verifyElementPresent(invoiceLabel, 10, FailureHandling.STOP_ON_FAILURE)
+assert isLabelVisible : "Validation failed: Detail page not loaded (no 'Invoice ID' label)!"
+
+TestObject invoiceValue = createDynamicObject("//*[contains(text(), '${targetInvoice}')]")
+boolean isInvoiceMatch = WebUI.verifyElementPresent(invoiceValue, 5, FailureHandling.STOP_ON_FAILURE)
+assert isInvoiceMatch : "Validation failed: Invoice '${targetInvoice}' not found on detail page!"
+
+WebUI.comment("✅ PASS: Invoice '${targetInvoice}' verified on transaction detail page!")
 WebUI.takeFullPageScreenshot('Screenshots/History_Search_Invoice_Passed.png')
+
+// ========================================
+// STEP 6: Kembali ke History (State Bersih untuk TC Berikutnya)
+// ========================================
+WebUI.comment('Step 6: Navigate back to History page')
+TestObject btnBack = createDynamicObject("//button[.//*[contains(@class, 'lucide-arrow-left')]] | //a[.//*[contains(@class, 'lucide-arrow-left')]]")
+WebUI.waitForElementPresent(btnBack, 10, FailureHandling.STOP_ON_FAILURE)
+WebUI.click(btnBack)
+WebUI.delay(1)
+
+// VALIDASI KUAT: Pastikan benar-benar kembali ke halaman History (pola sama dgn TC_Detail_002)
+TestObject showingText = createDynamicObject("//*[contains(text(), 'Showing')]")
+boolean isHistoryVisible = WebUI.verifyElementPresent(showingText, 10, FailureHandling.STOP_ON_FAILURE)
+assert isHistoryVisible : "Validation failed: Did not return to History page (no 'Showing' text)!"
+
+WebUI.comment('✅ PASS: Back navigation returned to History page')
 WebUI.comment('=== TC_History: Search Invoice Number - COMPLETED ===')
 
 

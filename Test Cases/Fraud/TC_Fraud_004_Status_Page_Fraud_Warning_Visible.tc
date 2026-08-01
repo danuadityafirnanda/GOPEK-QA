@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Fraud_004_Status_Page_Fraud_Warning_Visible</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0f4d5e6a-7b8c-4d9e-1f0a-2b3c4d5e6f70</testCaseGuid>
+</TestCaseEntity>

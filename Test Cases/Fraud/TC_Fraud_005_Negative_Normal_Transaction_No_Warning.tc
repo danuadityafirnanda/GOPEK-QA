@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Fraud_005_Negative_Normal_Transaction_No_Warning</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1a5e6f7b-8c9d-4e0f-2a1b-3c4d5e6f7081</testCaseGuid>
+</TestCaseEntity>

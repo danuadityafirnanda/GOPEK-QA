@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_Pay_005_Pos_Input_Preset_Amount_2</name>
+   <name>TC_Fraud_003_Detail_Page_Fraud_Warning_Visible</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>ec50dca8-3ae0-4284-9c67-797080243fe5</testCaseGuid>
+   <testCaseGuid>9e3c4d5f-6a7b-4c8d-0e9f-1a2b3c4d5e6f</testCaseGuid>
 </TestCaseEntity>

@@ -31,6 +31,12 @@ String targetOption = 'Debit (Out)'
 selectRadixOption(targetOption)
 WebUI.comment("✅ Selected Direction: ${targetOption}")
 
+// VALIDASI KUAT: Opsi terpilih harus tampil di trigger dropdown
+TestObject selectedOptionTrigger = createDynamicObject("//button[@role='combobox' and contains(., '${targetOption}')]")
+boolean isSelectedVisible = WebUI.verifyElementPresent(selectedOptionTrigger, 5, FailureHandling.STOP_ON_FAILURE)
+assert isSelectedVisible : "Validation failed: Selected option '${targetOption}' not shown in dropdown trigger!"
+
+
 // ========================================
 // STEP 3: Tutup / Silang Modal Filter (Manual via Object Repository kamu)
 // ========================================
@@ -46,6 +52,10 @@ TestObject transactionsHeader = createDynamicObject("//*[contains(text(), 'Trans
 boolean isTransactionsPresent = WebUI.verifyElementPresent(transactionsHeader, 10, FailureHandling.OPTIONAL)
 
 assert isTransactionsPresent : "Validation failed: Could not find 'Transactions' header or text on the page!"
+// VALIDASI KUAT: List transaksi termuat setelah filter diterapkan
+TestObject showingText = createDynamicObject("//*[contains(text(), 'Showing')]")
+boolean isShowingPresent = WebUI.verifyElementPresent(showingText, 15, FailureHandling.STOP_ON_FAILURE)
+assert isShowingPresent : "Validation failed: Transaction list did not reload after filter!"
 WebUI.comment('✅ PASS: Direction Filter applied successfully')
 
 WebUI.takeFullPageScreenshot("Screenshots/History_Filter_Direction_Passed.png")

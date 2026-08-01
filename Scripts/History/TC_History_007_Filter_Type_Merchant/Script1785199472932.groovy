@@ -6,7 +6,7 @@ import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.WebElement as WebElement
 
-WebUI.comment('=== TC_History: Filter Type TOP UP - START ===')
+WebUI.comment('=== TC_History: Filter Type MERCHANT (PAYMENT) - START ===')
 
 // ========================================
 // STEP 1: Buka Modal Filter Pertama Kali
@@ -41,15 +41,21 @@ WebUI.delay(0.5)
 // ========================================
 // STEP 4: Buka Dropdown Type & Pilih "Top Up"
 // ========================================
-WebUI.comment('Step 4: Open Type Dropdown & Select Top Up')
+WebUI.comment('Step 4: Open Type Dropdown & Select Payment (Merchant)')
 
 // Klik Dropdown Type (Dropdown Ke-1)
 clickTypeDropdown()
 WebUI.delay(0.5)
 
-// Pilih opsi 'Top Up' via Helper Radix UI
+// Pilih opsi 'Payment' (MERCHANT_PAYMENT) via Helper Radix UI
 selectRadixOption('Payment')
-WebUI.comment('✅ Selected Type: Top Up')
+WebUI.comment('✅ Selected Type: Payment (Merchant)')
+
+// VALIDASI KUAT: Opsi terpilih harus tampil di trigger dropdown
+TestObject selectedOptionTrigger = createDynamicObject("//button[@role='combobox' and contains(., 'Payment')]")
+boolean isSelectedVisible = WebUI.verifyElementPresent(selectedOptionTrigger, 5, FailureHandling.STOP_ON_FAILURE)
+assert isSelectedVisible : "Validation failed: Selected option 'Payment' not shown in dropdown trigger!"
+
 
 // ========================================
 // STEP 5: Tutup / Silang Modal Filter
@@ -66,10 +72,14 @@ TestObject transactionsHeader = createDynamicObject("//*[contains(text(), 'Trans
 boolean isTransactionsPresent = WebUI.verifyElementPresent(transactionsHeader, 10, FailureHandling.OPTIONAL)
 
 assert isTransactionsPresent : "Validation failed: Could not find 'Transactions' header or text on the page!"
-WebUI.comment('✅ PASS: Filter Type Top Up applied successfully')
+// VALIDASI KUAT: List transaksi termuat setelah filter diterapkan
+TestObject showingText = createDynamicObject("//*[contains(text(), 'Showing')]")
+boolean isShowingPresent = WebUI.verifyElementPresent(showingText, 15, FailureHandling.STOP_ON_FAILURE)
+assert isShowingPresent : "Validation failed: Transaction list did not reload after filter!"
+WebUI.comment('✅ PASS: Filter Type Merchant (Payment) applied successfully')
 
-WebUI.takeFullPageScreenshot('Screenshots/History_Filter_Type_TopUp_Passed.png')
-WebUI.comment('=== TC_History: Filter Type TOP UP - COMPLETED ===')
+WebUI.takeFullPageScreenshot('Screenshots/History_Filter_Type_Merchant_Passed.png')
+WebUI.comment('=== TC_History: Filter Type MERCHANT (PAYMENT) - COMPLETED ===')
 
 
 // ============================================================================
